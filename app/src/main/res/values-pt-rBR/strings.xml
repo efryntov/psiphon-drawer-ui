@@ -1,11 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <!--The section title shown in the preference screen for language related settings-->
-    <!--The title shown in the preference screen for selecting an in app language-->
+  <string name="banner_desc">banner do patrocinador, clique para visitar a página dele</string>
+  <string name="start_desc">conectado ao Psiphon; clique para conectar</string>
+  <string name="message_image_success_desc">ícone indicando uma mensagem de sucesso</string>
+  <string name="message_image_error_desc">ícone indicando uma mensagem de erro</string>
+  <string name="message_image_debug_desc">ícone indicando uma mensagem de depuração</string>
+  <string name="message_image_warning_desc">ícone indicando uma mensagem de alerta</string>
+  <string name="exit">Sair</string>
+  <string name="open_browser">Abrir Navegador</string>
+  <string name="browser_task_label">Navegador Psiphon</string>
+  <string name="FeedbackActivity.DefaultText">Se você tiver algum comentário específico, informações sobre páginas que não funcionam, ou se este formulário não funciona para você, por favor escreva &lt;a href=\"mailto:feedback@psiphon.ca\"&gt;feedback@psiphon.ca&lt;/a&gt;.</string>
+  <string name="FeedbackActivity.Success">Obrigado por enviar seus comentários</string>
+  <string name="FeedbackActivity.Failure">Falha no envio. Por favor tente novamente.</string>
+  <string name="FeedbackActivity.SubmitFeedbackFailed">Falha ao enviar comentário</string>
+  <string name="FeedbackActivity.InvalidURLParameters">Parâmetros inválidos da URL no envio do formulário</string>
+  <string name="FeedbackActivity.GetHTMLContentFailed">Falha ao carregar conteúdo da página de comentários</string>
+  <string name="StatusActivity.WholeDeviceTunnelPromptTitle">Tunelar todo o dispositivo?</string>
+  <string name="StatusActivity.WholeDeviceTunnelPromptMessage">O túnel para todo o dispositivo está disponível para o seu aparelho\n\nCom esta opção, todo o seu tráfego para a Internet, para todos os aplicativos, incluindo todos os navegadore, vai ser tunelado através do Psiphon.\n\nAlternativamente, você pode optar por tunelar apenas o tráfego do navegador Psiphon. Isso fará com que todas as suas outras aplicações saiam por sua conexão padrão de Internet.</string>
+  <string name="StatusActivity.WholeDeviceTunnelPositiveButton">Tunelar Todo o Dispositivo</string>
+  <string name="StatusActivity.WholeDeviceTunnelNegativeButton">Usar Apenas o Navegador Psiphon</string>
+  <string name="ads_consent_preference_dialog_title">Resetar</string>
+  <!--The section title shown in the preference screen for language related settings-->
+  <string name="preference_language_selection_title">Idioma</string>
+  <!--The title shown in the preference screen for selecting an in app language-->
   <!--The description shown in the preference screen for selecting an in app language-->
   <!--The name displayed to follow the system language setting in app-->
-    <!--The title shown in the preference screen for adjusting the always on VPN settings-->
-    <!--The message shown in the preference screen for adjusting the always on VPN settings-->
+  <string name="preference_language_default_language">Idioma padrão</string>
+  <!--The title shown in the preference screen for adjusting the always on VPN settings-->
+  <string name="preference_navigate_to_vpn_setting_title">VPN sempre ativa</string>
+  <!--The message shown in the preference screen for adjusting the always on VPN settings-->
   <!--A toast message which appears upon successful NFC bump & connection info transfer-->
   <!--A toast message which appears upon a failed NFC bump & connection info transfer-->
   <!--Text for a button which appears to the user if they have been trying, but unable to connect for an extended period of time. Brings forward a dialog which explains how to get help from another Psiphon user to connect.-->
