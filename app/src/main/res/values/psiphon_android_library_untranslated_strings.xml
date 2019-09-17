@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preferenceNotificationsWithSound">preferenceNotificationsWithSoundDefaultOff</string>
+    <string name="preferenceNotificationsWithVibrate">preferenceNotificationsWithVibrateDefaultOff</string>
+    <string name="preferenceExcludeAppsFromVpnString">preferenceExcludeAppsFromVpnString</string>
+    <!-- backwards compatible shared preferences names for new 'More Options' screen with proxy settings  -->
+    <string name="useProxySettingsPreference">useProxySettingsPreference</string>
+    <string name="useSystemProxySettingsPreference">useSystemProxySettingsPreference</string>
+    <string name="useCustomProxySettingsPreference">useCustomProxySettingsPreference</string>
+    <string name="useCustomProxySettingsHostPreference">useCustomProxySettingsHostPreference</string>
+    <string name="useCustomProxySettingsPortPreference">useCustomProxySettingsPortPreference</string>
+    <string name="useProxyAuthenticationPreference">useProxyAuthenticationPreference</string>
+    <string name="useProxyUsernamePreference">useProxyUsernamePreference</string>
+    <string name="useProxyPasswordPreference">useProxyPasswordPreference</string>
+    <string name="useProxyDomainPreference">useProxyDomainPreference</string>
+    <string name="addCustomHeadersPreference">addCustomHeadersPreference</string>
+
+
+    <!-- When Psiphon disconnects it sends a one last ("final") status request. This message is shown if that request fails. -->
+
+    <string name="current_local_http_proxy_port">currentLocalHttpProxyPort</string>
+    <string name="persistent_show_ads_setting">persistentShowAdsSetting</string>
+    <string name="persistentAuthorizationsRemovedFlag">persistentAuthorizationsRemovedFlag</string>
+
+</resources>

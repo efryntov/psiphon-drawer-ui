@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="socks_running">SOCKS buufata irra hojjetaa jira %d</string>
+    <string name="http_proxy_running">Bakka bu’aan HTTP buufata irraa hojjechaa e jira %d</string>
+    <string name="client_version">Gulantaa Maamilaa %s</string>
+    <string name="starting_tunnel">Dabarsi jalaqabaa jira...</string>
+  <string name="stopping_tunnel">Dabarsi dhaabataa jira...</string>
+  <string name="stopped_tunnel">Dabarsa dhaabate</string>
+    <string name="socks_port_in_use">Buufata gaafatame kan bakka bu\'aa SOCKS %d appilikeeshinii kan biroodhaan fayyadamamaa jira. itti fufuun hin danda\'amu.</string>
+    <string name="psiphon_running_whole_device">Haala meeshaa guutuun hojjetaa jira</string>
+  <string name="psiphon_running_browser_only">Haala barbaadduu qofaan hojjetaa jira</string>
+  <string name="waiting_for_network_connectivity">Neetwoorkiin hamma argamutti eegaa jira...</string>
+    <string name="psiphon_service_notification_message_connecting">Wal agarsiisaa jira...</string>
+    <string name="vpn_service_running">Tajaajilli VPN hojjetaa jira</string>
+    <string name="vpn_service_revoked">Tajaajilli VPN uggurameera</string>
+    <string name="debug_message">%s</string>
+    <string name="current_network_type">Neetwoorkii amma jiru: %s</string>
+    <string name="connected_elapsed_time">Wal qabateera %s</string>
+  <string name="disconnected">Addaan citeera</string>
+  <string name="label_sent">Ergameera</string>
+  <string name="label_received">Fudhatameera</string>
+    <string name="region_name_any">Raawwatiinsa haalaan gaarii</string>
+  <string name="region_name_us">Yuunayitid Isteetis</string>
+  <string name="region_name_gb">Ingilizii</string>
+  <string name="region_name_ca">Kaanaadaa</string>
+  <string name="region_name_de">Jarmanii</string>
+  <string name="region_name_jp">Jaappaan</string>
+  <string name="region_name_hk">Hoong Koong</string>
+  <string name="region_name_sg">Siingaapoor</string>
+  <string name="region_name_nl">Nezerlaand</string>
+  <string name="region_name_in">Hindii</string>
+  <string name="region_name_es">Ispeen</string>
+  <string name="region_name_at">Ostriyaa</string>
+  <string name="region_name_be">Beljiyeem</string>
+  <string name="region_name_bg">Bulgaariyaa</string>
+  <string name="region_name_ch">Iswiizerlaand</string>
+  <string name="region_name_cz">Cheek Ripaabilikii</string>
+  <string name="region_name_dk">Deenmaark</string>
+  <string name="region_name_fr">Faransaay</string>
+  <string name="region_name_hu">Hangaarii</string>
+  <string name="region_name_it">Xaaliyaanii</string>
+  <string name="region_name_no">Noorwey</string>
+  <string name="region_name_ro">Roomaaniyaa</string>
+  <string name="region_name_se">Iswiidin</string>
+  <string name="region_name_pl">Polaand</string>
+    <string name="individual_app_excluded">Appilikeeshinii dabarsa keessaa hambifame: %s</string>
+  <string name="no_apps_excluded">Appilikeeshiniin kamiyyu dabarsama keessaa hin hambifamne</string>
+    <string name="http_proxy_port_in_use">Buufati bakka bu\'aa naannoo HTTP gaafatame %d appilikeeshinii kan biroon dursamee gargaaramamaa jira. Itti fufuun hin danda\'amu.</string>
+  <!--When the split tunnel option is enabled, the current region is used to determine which requests should and shouldn't be tunneled. This log message tells the user which region (in '%s') is being used for this decision.-->
+  <string name="split_tunnel_region">Naanno dabarsaa addaan baasi: %s</string>
+  <!--When the split tunnel option is enabled, this log message is shown when a domain is not tunneled (because it's detected as being in the same region as the user). The '%s' is the domain name.-->
+  <string name="untunneled_address">kan hin dabarsamiin: %s</string>
+  <!--The log message is shown to the user if an upstream proxy error occurs. The '%s' is the detail of the error.-->
+  <string name="upstream_proxy_error">Dogoggora bakka bu\'aa gara olii: %s</string>
+    <string name="start_tunnel_failed">Dabarsa jalqabsiisuun hin milkoofne: %s</string>
+  <string name="tunnel_connecting">Dabarsa wal qabsiisuutti jira...</string>
+  <string name="tunnel_connected">Dabarsituun wal qabateera</string>
+    <!--Empty string array to initialize things that will be programatically populated later-->
+</resources>

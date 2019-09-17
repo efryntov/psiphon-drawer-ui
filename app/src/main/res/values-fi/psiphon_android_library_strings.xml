@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="socks_running">SOCSK käynnissä portissa %d</string>
+    <string name="http_proxy_running">HTTP-välityspalvelin käynnissä portissa %d</string>
+    <string name="client_version">Asiakasohjelmaversio %s</string>
+    <string name="starting_tunnel">Käynnistetään tunneli...</string>
+  <string name="stopping_tunnel">Pysäytetään tunneli...</string>
+    <string name="psiphon_running_whole_device">Suoritetaan koko laite-tilassa</string>
+  <string name="psiphon_running_browser_only">Suoritetaan vain selaintilassa</string>
+  <string name="waiting_for_network_connectivity">Odotetaan verkkoyhteyttä...</string>
+  <string name="psiphon_service_notification_message_connecting">Yhdistetään...</string>
+    <string name="vpn_service_running">VPN-palvelu käynnissä</string>
+    <string name="debug_message">%s</string>
+  <string name="current_network_type">Nykyinen verkko: %s</string>
+    <string name="connected_elapsed_time">Yhdistetty: %s</string>
+  <string name="disconnected">Yhteys katkaistu</string>
+  <string name="label_sent">Lähetetty</string>
+  <string name="label_received">Vastaanotettu</string>
+    <string name="region_name_any">Paras suorituskyky</string>
+  <string name="region_name_us">Yhdysvallat</string>
+  <string name="region_name_gb">Yhdistynyt kuningaskunta</string>
+  <string name="region_name_ca">Kanada</string>
+  <string name="region_name_de">Saksa</string>
+  <string name="region_name_jp">Japani</string>
+  <string name="region_name_hk">Hong Kong</string>
+  <string name="region_name_sg">Singapore</string>
+  <string name="region_name_nl">Hollanti</string>
+    <!--When the split tunnel option is enabled, the current region is used to determine which requests should and shouldn't be tunneled. This log message tells the user which region (in '%s') is being used for this decision.-->
+  <!--When the split tunnel option is enabled, this log message is shown when a domain is not tunneled (because it's detected as being in the same region as the user). The '%s' is the domain name.-->
+  <!--The log message is shown to the user if an upstream proxy error occurs. The '%s' is the detail of the error.-->
+  <!--Empty string array to initialize things that will be programatically populated later-->
+</resources>

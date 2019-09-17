@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="socks_running">SOCKS running on port %d</string>
+    <string name="http_proxy_running">HTTP proxy running on port %d</string>
+    <string name="client_version">Client Version %s</string>
+    <string name="starting_tunnel">Starting tunnel…</string>
+    <string name="stopping_tunnel">Stopping tunnel…</string>
+    <string name="stopped_tunnel">Stopped tunnel</string>
+    <string name="socks_port_in_use">Requested local SOCKS proxy port %d is already in use by another app.  Cannot continue.</string>
+    <string name="psiphon_running_whole_device">Running in whole device mode</string>
+    <string name="psiphon_running_browser_only">Running in browser-only mode</string>
+    <string name="waiting_for_network_connectivity">Waiting for network connectivity…</string>
+    <string name="psiphon_service_notification_message_connecting">Connecting…</string>
+    <string name="psiphon_service_notification_channel_name">Psiphon Status Changes</string>
+    <string name="vpn_service_running">VPN service running</string>
+    <string name="vpn_service_revoked">VPN service revoked</string>
+    <string name="debug_message">%s</string>
+    <string name="current_network_type">Current network: %s</string>
+    <string name="connected_elapsed_time">Connected: %s</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="label_sent">Sent</string>
+    <string name="label_received">Received</string>
+    <string name="region_name_any">Best performance</string>
+    <string name="region_name_us">United States</string>
+    <string name="region_name_gb">United Kingdom</string>
+    <string name="region_name_ca">Canada</string>
+    <string name="region_name_de">Germany</string>
+    <string name="region_name_jp">Japan</string>
+    <string name="region_name_hk">Hong Kong</string>
+    <string name="region_name_sg">Singapore</string>
+    <string name="region_name_nl">Netherlands</string>
+    <string name="region_name_in">India</string>
+    <string name="region_name_es">Spain</string>
+    <string name="region_name_at">Austria</string>
+    <string name="region_name_be">Belgium</string>
+    <string name="region_name_bg">Bulgaria</string>
+    <string name="region_name_ch">Switzerland</string>
+    <string name="region_name_cz">Czech Republic</string>
+    <string name="region_name_dk">Denmark</string>
+    <string name="region_name_fr">France</string>
+    <string name="region_name_hu">Hungary</string>
+    <string name="region_name_it">Italy</string>
+    <string name="region_name_no">Norway</string>
+    <string name="region_name_ro">Romania</string>
+    <string name="region_name_se">Sweden</string>
+    <string name="region_name_pl">Poland</string>
+    <string name="region_name_sk">Slovakia</string>
+    <string name="individual_app_excluded">App excluded from tunnel: %s</string>
+    <string name="no_apps_excluded">No applications were excluded from the tunnel</string>
+    <string name="http_proxy_port_in_use">Requested local HTTP proxy port %d is already in use by another app.  Cannot continue.</string>
+
+    <!-- When the split tunnel option is enabled, the current region is used to determine which requests should and shouldn't be tunneled. This log message tells the user which region (in '%s') is being used for this decision. -->
+    <string name="split_tunnel_region">Split tunnel region: %s</string>
+
+    <!-- When the split tunnel option is enabled, this log message is shown when a domain is not tunneled (because it's detected as being in the same region as the user). The '%s' is the domain name. -->
+    <string name="untunneled_address">Untunneled: %s</string>
+
+    <!-- The log message is shown to the user if an upstream proxy error occurs. The '%s' is the detail of the error. -->
+    <string name="upstream_proxy_error">Upstream proxy error: %s</string>
+
+    <string name="start_tunnel_failed">Start tunnel failed: %s</string>
+    <string name="tunnel_connecting">Tunnel connecting…</string>
+    <string name="tunnel_connected">Tunnel connected</string>
+
+    <!-- Title for prompt requesting the user to grant the ACCESS_COARSE_LOCATION permission -->
+    <!-- Message for prompt requesting the user to grant the ACCESS_COARSE_LOCATION permission -->
+    <!-- Positive response button for prompt requesting the user to grant the ACCESS_COARSE_LOCATION permission -->
+    <!-- Negative response button for prompt requesting the user to grant the ACCESS_COARSE_LOCATION permission -->
+
+    <!-- Empty string array to initialize things that will be programatically populated later -->
+</resources>

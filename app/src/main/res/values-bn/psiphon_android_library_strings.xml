@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="socks_running">সক্স পোর্ট টি চলমান %d</string>
+    <string name="http_proxy_running">HTTP প্রক্সি পোর্ট চলমান  %d</string>
+    <string name="client_version">ক্লায়েন্ট সংস্করণ %s</string>
+    <string name="starting_tunnel">টানেল শুরু হচ্ছে ...</string>
+  <string name="stopping_tunnel">টানেল থামানো হচ্ছে ...</string>
+  <string name="stopped_tunnel">টানেল বন্ধ হয়ে গেছে </string>
+    <string name="socks_port_in_use">অনুরোধ করা স্থানীয় SOCKS প্রক্সি পোর্ট %d ইতিমধ্যে অন্য অ্যাপ্লিকেশান দ্বারা ব্যবহার করা হয়েছে। চালিয়ে যেতে পারবেন না</string>
+    <string name="psiphon_running_whole_device">পুরো ডিভাইস মোডে চলমান</string>
+  <string name="psiphon_running_browser_only">শুধুমাত্র-ব্রাউজার মোডে চলমান</string>
+  <string name="waiting_for_network_connectivity">নেটওয়ার্ক সংযোগের জন্য অপেক্ষা করা হচ্ছে ...</string>
+    <string name="psiphon_service_notification_message_connecting">সংযুক্ত হচ্ছে ...</string>
+    <string name="vpn_service_running">ভিপিএন সেবা চলমান</string>
+    <string name="vpn_service_revoked">ভিপিএন সেবা বাতিল করা হয়েছে</string>
+    <string name="debug_message">%s</string>
+    <string name="current_network_type">বর্তমান নেটওয়ার্ক:%s</string>
+    <string name="connected_elapsed_time">সংযুক্ত:%s</string>
+  <string name="disconnected">সংযোগ বিচ্ছিন্ন</string>
+  <string name="label_sent">পাঠানো হয়েছে</string>
+  <string name="label_received">গৃহীত হয়েছে</string>
+    <string name="region_name_any">সেরা পারফরম্যান্স</string>
+  <string name="region_name_us">যুক্তরাষ্ট্র</string>
+  <string name="region_name_gb">যুক্তরাজ্য</string>
+  <string name="region_name_ca">কানাডা</string>
+  <string name="region_name_de">জার্মানি</string>
+  <string name="region_name_jp">জাপান</string>
+  <string name="region_name_hk">হংকং</string>
+  <string name="region_name_sg">সিঙ্গাপুর</string>
+  <string name="region_name_nl">নেদারল্যান্ডস</string>
+  <string name="region_name_in">ভারত</string>
+  <string name="region_name_es">স্পেন</string>
+  <string name="region_name_at">অস্ট্রিয়া</string>
+  <string name="region_name_be">বেলজিয়াম</string>
+  <string name="region_name_bg">বুলগেরিয়া</string>
+  <string name="region_name_ch">সুইজারল্যান্ড</string>
+  <string name="region_name_cz">চেক প্রজাতন্ত্র</string>
+  <string name="region_name_dk">ডেনমার্ক</string>
+  <string name="region_name_fr">ফ্রান্স</string>
+  <string name="region_name_hu">হাঙ্গেরি</string>
+  <string name="region_name_it">ইতালি</string>
+  <string name="region_name_no">নরওয়ে</string>
+  <string name="region_name_ro">রোমানিয়া</string>
+  <string name="region_name_se">সুইডেন</string>
+  <string name="region_name_pl">পোল্যান্ড</string>
+  <string name="region_name_sk">Slovakia</string>
+    <string name="individual_app_excluded">টানেল থেকে অ্যাপটি বাদ দেওয়া হয়েছে:%s</string>
+  <string name="no_apps_excluded">কোনো অ্যাপ্লিকেশন টানেল থেকে বাদ যায়নি</string>
+    <string name="http_proxy_port_in_use">অনুরোধ করা স্থানীয় HTTP প্রক্সি পোর্ট %d ইতিমধ্যে অন্য অ্যাপ্লিকেশন দ্বারা ব্যবহারে আছে চালিয়ে যেতে পারবেন না</string>
+  <!--When the split tunnel option is enabled, the current region is used to determine which requests should and shouldn't be tunneled. This log message tells the user which region (in '%s') is being used for this decision.-->
+  <string name="split_tunnel_region">স্প্লিট টানেল অঞ্চল: %s</string>
+  <!--When the split tunnel option is enabled, this log message is shown when a domain is not tunneled (because it's detected as being in the same region as the user). The '%s' is the domain name.-->
+  <string name="untunneled_address">টানেল নয়: %s</string>
+  <!--The log message is shown to the user if an upstream proxy error occurs. The '%s' is the detail of the error.-->
+  <string name="upstream_proxy_error">আপস্ট্রিম প্রক্সি ত্রুটি:%s</string>
+    <string name="start_tunnel_failed">টানেল শুরু করা ব্যর্থ হয়েছে:%s</string>
+  <string name="tunnel_connecting">টানেল সংযুক্ত হচ্ছে ...</string>
+  <string name="tunnel_connected">টানেল সংযুক্ত</string>
+    <!--Empty string array to initialize things that will be programatically populated later-->
+</resources>

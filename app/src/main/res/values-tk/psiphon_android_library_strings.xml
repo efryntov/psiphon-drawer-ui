@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="socks_running">SOCKS işleýär %d</string>
+    <string name="http_proxy_running">HTTP proksi işleýär %d</string>
+    <string name="client_version">Müşderi wersiýasy %s</string>
+    <string name="starting_tunnel">Ötük başladylýar...</string>
+  <string name="stopping_tunnel">Ötük duruzylýar...</string>
+  <string name="stopped_tunnel">Ötük durzuldy</string>
+    <string name="socks_port_in_use">Talap edilen ýerli SOCKS proksiniñ porty %d eýýäm başga programmada ullanylýar. Dowam edip bolanok.</string>
+    <string name="psiphon_running_whole_device">Bütin enjam görnüşinde işleýär</string>
+  <string name="psiphon_running_browser_only">Diñe brauzer görnüşinde işleýär</string>
+  <string name="waiting_for_network_connectivity">Network birikdirilmesine garaşylýar…</string>
+    <string name="psiphon_service_notification_message_connecting">Birikdirilýär...</string>
+    <string name="vpn_service_running">VPN hyzmaty işleýär</string>
+    <string name="vpn_service_revoked">VPN hyzmaty goýbolsun edildi</string>
+    <string name="debug_message">%s</string>
+    <string name="current_network_type">Häzirki network: %s</string>
+    <string name="connected_elapsed_time">Birikdirildi: %s</string>
+  <string name="disconnected">Birikmedi</string>
+  <string name="label_sent">Iberildi</string>
+  <string name="label_received">Kabul edildi</string>
+    <string name="region_name_any">Iň gowy ýerine ýetiriliş</string>
+  <string name="region_name_us">Amerikaň Birleşen Ştatlary</string>
+  <string name="region_name_gb">Beýik Britaniýa</string>
+  <string name="region_name_ca">Kanada</string>
+  <string name="region_name_de">Germaniýa</string>
+  <string name="region_name_jp">Ýaponiýa</string>
+  <string name="region_name_hk">Gong Kong</string>
+  <string name="region_name_sg">Singapur</string>
+  <string name="region_name_nl">Gollandiýa</string>
+  <string name="region_name_in">Hindistan</string>
+  <string name="region_name_es">Ispaniýa</string>
+  <string name="region_name_at">Awstriýa</string>
+  <string name="region_name_be">Belgiýa</string>
+  <string name="region_name_bg">Bolgariýa</string>
+  <string name="region_name_ch">Şweýsariýa</string>
+  <string name="region_name_cz">Çeh Respublikasy</string>
+  <string name="region_name_dk">Daniýa</string>
+  <string name="region_name_fr">Fransiýa</string>
+  <string name="region_name_hu">Wengriýa</string>
+  <string name="region_name_it">Italiya</string>
+  <string name="region_name_no">Norwegiýa</string>
+  <string name="region_name_ro">Rumyniýa</string>
+  <string name="region_name_se">Şwesiýa</string>
+    <string name="http_proxy_port_in_use">Talap edilen ýerli HTTP proksi porty %d başga programma tarapyndan ulanylýar.  Dowam edip bolanok.</string>
+  <!--When the split tunnel option is enabled, the current region is used to determine which requests should and shouldn't be tunneled. This log message tells the user which region (in '%s') is being used for this decision.-->
+  <string name="split_tunnel_region">Tunel ýerini böl: %s</string>
+  <!--When the split tunnel option is enabled, this log message is shown when a domain is not tunneled (because it's detected as being in the same region as the user). The '%s' is the domain name.-->
+  <string name="untunneled_address">Tunel tapylmady: %s</string>
+  <!--The log message is shown to the user if an upstream proxy error occurs. The '%s' is the detail of the error.-->
+  <string name="upstream_proxy_error">Upstream prokside säwlik: %s</string>
+    <string name="start_tunnel_failed">Tunel başlangyjy şowsuz: %s</string>
+  <string name="tunnel_connecting">Tunel birikdirilýär...</string>
+  <string name="tunnel_connected">Tunel birikdi</string>
+    <!--Empty string array to initialize things that will be programatically populated later-->
+</resources>

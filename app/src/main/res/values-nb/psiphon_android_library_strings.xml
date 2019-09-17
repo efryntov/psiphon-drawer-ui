@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="socks_running">SOCKS kjører på port %d</string>
+    <string name="http_proxy_running">HTTP-mellomlager kjører på port %d</string>
+    <string name="client_version">Klientversjon %s</string>
+    <string name="starting_tunnel">Starter tunnel…</string>
+  <string name="stopping_tunnel">Stopper tunnel…</string>
+  <string name="stopped_tunnel">Tunnel stoppet</string>
+    <string name="socks_port_in_use">Forespurt lokal SOCKS-mellomtjenerport %d er allerede i bruk av et annet program. Kan ikke fortsette.</string>
+    <string name="psiphon_running_whole_device">Kjører i hele-fjøla -modus</string>
+  <string name="psiphon_running_browser_only">Kjører i bare-nettleser -modus</string>
+  <string name="waiting_for_network_connectivity">Venter på nettverkstilkobling…</string>
+    <string name="psiphon_service_notification_message_connecting">Kobler til…</string>
+    <string name="vpn_service_running">VPN-tjeneste kjører</string>
+    <string name="vpn_service_revoked">VPN-tjeneste tilbakedratt</string>
+    <string name="debug_message">%s</string>
+    <string name="current_network_type">Gjeldende nettverk: %s</string>
+    <string name="connected_elapsed_time">Tilkoblet: %s</string>
+  <string name="disconnected">Frakoblet</string>
+  <string name="label_sent">Sendt</string>
+  <string name="label_received">Mottatt</string>
+    <string name="region_name_any">Best ytelse</string>
+  <string name="region_name_us">Amerikas forente stater</string>
+  <string name="region_name_gb">Storbritannia</string>
+  <string name="region_name_ca">Kanada</string>
+  <string name="region_name_de">Tyskland</string>
+  <string name="region_name_jp">Japan</string>
+  <string name="region_name_hk">Hongkong</string>
+  <string name="region_name_sg">Singapore</string>
+  <string name="region_name_nl">Nederland</string>
+  <string name="region_name_in">India</string>
+  <string name="region_name_es">Spania</string>
+  <string name="region_name_at">Østerrike</string>
+  <string name="region_name_be">Belgia</string>
+  <string name="region_name_bg">Bulgaria</string>
+  <string name="region_name_ch">Sveits</string>
+  <string name="region_name_cz">Tsjekkia</string>
+  <string name="region_name_dk">Danmark</string>
+  <string name="region_name_fr">Frankrike</string>
+  <string name="region_name_hu">Ungarn</string>
+  <string name="region_name_it">Italia</string>
+  <string name="region_name_no">Norge</string>
+  <string name="region_name_ro">Romania</string>
+  <string name="region_name_se">Sverige</string>
+  <string name="region_name_pl">Polen</string>
+    <string name="individual_app_excluded">Program ekskludert fra tunnel: %s</string>
+  <string name="no_apps_excluded">Ingen programmer ble ekskludert fra tunnelen</string>
+    <string name="http_proxy_port_in_use">Forespurt lokal HTTP-mellomtjenerport %d er allerede i bruk av et annet program. Kan ikke fortsette.</string>
+  <!--When the split tunnel option is enabled, the current region is used to determine which requests should and shouldn't be tunneled. This log message tells the user which region (in '%s') is being used for this decision.-->
+  <string name="split_tunnel_region">Splittet tunnelregion: %s</string>
+  <!--When the split tunnel option is enabled, this log message is shown when a domain is not tunneled (because it's detected as being in the same region as the user). The '%s' is the domain name.-->
+  <string name="untunneled_address">Ikke tunnelert: %s</string>
+  <!--The log message is shown to the user if an upstream proxy error occurs. The '%s' is the detail of the error.-->
+  <string name="upstream_proxy_error">Oppstrøms mellomtjenerfeil: %s</string>
+    <string name="start_tunnel_failed">Oppstart av tunnel feilet: %s</string>
+  <string name="tunnel_connecting">Kobler til tunnel</string>
+  <string name="tunnel_connected">Tunnel tilkoblet</string>
+    <!--Empty string array to initialize things that will be programatically populated later-->
+</resources>

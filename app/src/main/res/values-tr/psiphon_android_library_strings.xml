@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="socks_running">SOCKS %d numaralı kapı üzerinde çalışıyor</string>
+    <string name="http_proxy_running">HTTP vekil sunucusu %d numaralı kapı üzerinde çalışıyor</string>
+    <string name="client_version">İstemci Sürümü %s</string>
+    <string name="starting_tunnel">Tünel başlatılıyor…</string>
+  <string name="stopping_tunnel">Tünel durduruluyor…</string>
+  <string name="stopped_tunnel">Tünel durduruldu</string>
+    <string name="socks_port_in_use">İstenilen %d yerel SOCKS vekil sunucu kapı numarası başka bir uygulama tarafından kullanıldığından devam edilemiyor.</string>
+    <string name="psiphon_running_whole_device">Tüm aygıt kipinde çalışıyor</string>
+  <string name="psiphon_running_browser_only">Yalnız tarayıcı kipinde çalışıyor</string>
+  <string name="waiting_for_network_connectivity">Ağ bağlantısının kurulması bekleniyor…</string>
+    <string name="psiphon_service_notification_message_connecting">Bağlantı kuruluyor…</string>
+    <string name="vpn_service_running">VPN hizmeti çalışıyor</string>
+    <string name="vpn_service_revoked">VPN hizmeti iptal edildi</string>
+    <string name="debug_message">%s</string>
+    <string name="current_network_type">Geçerli ağ: %s</string>
+    <string name="connected_elapsed_time">Bağlantı kuruldu: %s</string>
+  <string name="disconnected">Bağlantı kesildi</string>
+  <string name="label_sent">Gönderilen</string>
+  <string name="label_received">Alınan</string>
+    <string name="region_name_any">En iyi başarım</string>
+  <string name="region_name_us">Birleşik Devletler</string>
+  <string name="region_name_gb">Birleşik Krallık</string>
+  <string name="region_name_ca">Kanada</string>
+  <string name="region_name_de">Almanya</string>
+  <string name="region_name_jp">Japonya</string>
+  <string name="region_name_hk">Hong Kong</string>
+  <string name="region_name_sg">Singapur</string>
+  <string name="region_name_nl">Hollanda</string>
+  <string name="region_name_in">Hindistan</string>
+  <string name="region_name_es">İspanya</string>
+  <string name="region_name_at">Avusturya</string>
+  <string name="region_name_be">Belçika</string>
+  <string name="region_name_bg">Bulgaristan</string>
+  <string name="region_name_ch">İsviçre</string>
+  <string name="region_name_cz">Çekya</string>
+  <string name="region_name_dk">Danimarka</string>
+  <string name="region_name_fr">Fransa</string>
+  <string name="region_name_hu">Macaristan</string>
+  <string name="region_name_it">İtalya</string>
+  <string name="region_name_no">Norveç</string>
+  <string name="region_name_ro">Romanya</string>
+  <string name="region_name_se">İsveç</string>
+  <string name="region_name_pl">Polonya</string>
+  <string name="region_name_sk">Slovakya</string>
+    <string name="individual_app_excluded">Tüneli kullanmayacak uygulamalar: %s</string>
+  <string name="no_apps_excluded">Tünel kullanmayan herhangi bir uygulama yok</string>
+    <string name="http_proxy_port_in_use">İstenilen %d yerel HTTP vekil sunucu kapı numarası başka bir uygulama tarafından kullanıldığından devam edilemiyor.</string>
+  <!--When the split tunnel option is enabled, the current region is used to determine which requests should and shouldn't be tunneled. This log message tells the user which region (in '%s') is being used for this decision.-->
+  <string name="split_tunnel_region">Ayrık tünel bölgesi: %s</string>
+  <!--When the split tunnel option is enabled, this log message is shown when a domain is not tunneled (because it's detected as being in the same region as the user). The '%s' is the domain name.-->
+  <string name="untunneled_address">Tünellenmeyen: %s</string>
+  <!--The log message is shown to the user if an upstream proxy error occurs. The '%s' is the detail of the error.-->
+  <string name="upstream_proxy_error">Giden vekil sunucu hatası: %s</string>
+    <string name="start_tunnel_failed">Tünel başlatılamadı: %s</string>
+  <string name="tunnel_connecting">Tünel bağlantısı kuruluyor…</string>
+  <string name="tunnel_connected">Tünel bağlantısı kuruldu</string>
+    <!--Empty string array to initialize things that will be programatically populated later-->
+</resources>

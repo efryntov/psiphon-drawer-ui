@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Descriptive text telling the user how they can use Psiphon Pro: either
+         by subscribing or by having ads in the app.
+         Insert one or more newline characters as needed to keep the lines approximately as short
+         as the English. -->
+
+    <!-- Prompt text telling the user that can continue to use Psiphon by watching
+         a video ad. (This is an alternative to subscribing.) -->
+
+    <!-- Text indicating to the user how much time they have left in their free trial. -->
+
+    <!-- Label for button that leads user to buy subscription or time pass to premium service.
+         When the user has a subscription or time pass, advertisements are removed from the app
+         ("ad-free"), additional features are enabled, and the app no longer periodically disconnects. -->
+
+    <!-- New option title in the 'More options' dialog. It appears in the Proxy Setting category.
+        When clicked a new screen opens where users can specify additional HTTP headers to be added to
+        to HTTP proxy requests. Users may specify up to 3 custom headers -->
+
+    <!--  Summary text for 'Custom HTTP header' option, appears underneath the option title -->
+
+    <!-- Checkbox that toggles adding custom headers feature-->
+
+    <!--  Summary text for 'Add custom HTTP headers' checkbox, appears underneath the checkbox title -->
+
+    <!-- Label for button that user will click to buy a 7-day pass for Psiphon Pro.
+         The first formatted string is the price, and the second is what the price is per day. -->
+
+    <!-- Label for button that user will click to buy a 30-day pass for Psiphon Pro.
+         The first formatted string is the price, and the second is what the price is per day. -->
+
+    <!-- Label for button that user will click to buy a 90-day pass for Psiphon Pro.
+         The first formatted string is the price, and the second is what the price is per day. -->
+
+    <!-- Label for button that user will click to buy a 360-day pass for Psiphon Pro.
+         The first formatted string is the price, and the second is what the price is per day. -->
+
+    <!-- One of the features of paying for premium Psiphon Pro usage. Should be short and
+         exclamatory. Indicates that premium access results in all in-app advertisements being
+         removed. -->
+
+    <!-- One of the features of paying for premium Psiphon Pro usage. Should be short and
+         exclamatory. Indicates that premium access results in additional features being unlocked
+         (such as egress region selection). -->
+
+    <!-- One of the features of paying for premium Psiphon Pro usage. Should be short and
+         exclamatory. Indicates that premium access results in no interruptions due to free trial
+         time expiring (as happens with non-premium access). -->
+
+    <!-- Text in the screen where the user chooses to buy a subscription or a pass for a specific
+         amount of time. This string is a description specifically about buying a subscription.
+         The parenthetical remark about credit card requirements should be separated by a newline. -->
+
+</resources>

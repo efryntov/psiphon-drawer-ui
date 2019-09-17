@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="socks_running">SOCKS روی پورت %d در حال اجرا است</string>
+    <string name="http_proxy_running">پراکسی HTTP روی پورت %d در حال اجرا است</string>
+    <string name="client_version">نسخه سرویس‌گیرنده %s</string>
+    <string name="starting_tunnel">در حال شروع تونل...</string>
+  <string name="stopping_tunnel">در حال توقف تونل...</string>
+  <string name="stopped_tunnel">تونل متوقف شد</string>
+    <string name="socks_port_in_use">پورت پراکسی SOCKS محلی %d درخواست شده توسط برنامه دیگر در حال استفاده است.  نمیتوان ادامه داد.</string>
+    <string name="psiphon_running_whole_device">در حال اجرا در حالت تمام دستگاه</string>
+  <string name="psiphon_running_browser_only">در حال اجرا در حالت فقط مرورگر </string>
+  <string name="waiting_for_network_connectivity">در حال انتظار برای اتصال به شبکه...</string>
+    <string name="psiphon_service_notification_message_connecting">درحال اتصال...</string>
+    <string name="vpn_service_running">سرویس VPN در حال اجرا است</string>
+    <string name="vpn_service_revoked">سرویس VPN لغو شد</string>
+    <string name="debug_message">%s</string>
+    <string name="current_network_type">شبکه فعلی: %s</string>
+    <string name="connected_elapsed_time">متصل شد: %s</string>
+  <string name="disconnected">اتصال قطع شد</string>
+  <string name="label_sent">ارسال شد</string>
+  <string name="label_received">دریافت شد</string>
+    <string name="region_name_any">بهترین عملکرد</string>
+  <string name="region_name_us">ایالات متحده</string>
+  <string name="region_name_gb">بریتانیا</string>
+  <string name="region_name_ca">کانادا</string>
+  <string name="region_name_de">آلمان</string>
+  <string name="region_name_jp">جاپان</string>
+  <string name="region_name_hk">هانگ کانگ</string>
+  <string name="region_name_sg">سنگاپور</string>
+  <string name="region_name_nl">هالند</string>
+  <string name="region_name_in">هندوستان</string>
+  <string name="region_name_es">اسپانیا</string>
+  <string name="region_name_at">اتریش</string>
+  <string name="region_name_be">بلجیم</string>
+  <string name="region_name_bg">بلغاریا</string>
+  <string name="region_name_ch">سوئیس</string>
+  <string name="region_name_cz">جمهوری چک</string>
+  <string name="region_name_dk">دنمارک</string>
+  <string name="region_name_fr">فرانسه</string>
+  <string name="region_name_hu">مجارستان</string>
+  <string name="region_name_it">ایتالیا</string>
+  <string name="region_name_no">ناروی</string>
+  <string name="region_name_ro">رومانیا</string>
+  <string name="region_name_se">سویدن</string>
+    <string name="http_proxy_port_in_use">پورت پراکسی HTTP محلی %d درخواست شده توسط برنامه دیگر در حال استفاده است. نمیتوان ادامه داد.</string>
+  <!--When the split tunnel option is enabled, the current region is used to determine which requests should and shouldn't be tunneled. This log message tells the user which region (in '%s') is being used for this decision.-->
+  <string name="split_tunnel_region">منطقه دارای تونل دوقسمتی: %s</string>
+  <!--When the split tunnel option is enabled, this log message is shown when a domain is not tunneled (because it's detected as being in the same region as the user). The '%s' is the domain name.-->
+  <string name="untunneled_address">فاقد تونل: %s</string>
+  <!--The log message is shown to the user if an upstream proxy error occurs. The '%s' is the detail of the error.-->
+  <string name="upstream_proxy_error">خطای پراکسی در قسمت فوقانی: %s</string>
+    <string name="start_tunnel_failed">شروع تونل ناموفق بود: %s</string>
+  <string name="tunnel_connecting">تونل در حال اتصال...</string>
+  <string name="tunnel_connected">تونل متصل شد</string>
+    <!--Empty string array to initialize things that will be programatically populated later-->
+</resources>

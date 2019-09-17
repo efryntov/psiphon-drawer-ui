@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="socks_running">SOCKS выконваецца праз порт %d</string>
+    <string name="http_proxy_running">HTTP проксі выконваецца  праз порт %d</string>
+    <string name="client_version">Версія кліента %s</string>
+    <string name="starting_tunnel">Запуск тунэлявання...</string>
+  <string name="stopping_tunnel">Спыненне  тунэлявання...</string>
+  <string name="stopped_tunnel"> Тунэляванне спыпыненае</string>
+    <string name="socks_port_in_use">Запытаны лакальны порт проксі-сервера SOCKS %d ужо ўжываецца іншай праграмай. Немагчыма працягваць.</string>
+    <string name="psiphon_running_whole_device">Выконваецца ў рэжыме ўсёй прылады</string>
+  <string name="psiphon_running_browser_only">Выконваецца ў рэжыме толькі браўзера</string>
+  <string name="waiting_for_network_connectivity">Чаканне злучэння з сеткай...</string>
+    <string name="psiphon_service_notification_message_connecting">Ідзе злучэнне...</string>
+    <string name="vpn_service_running">Выконваецца сэрвіс VPN</string>
+    <string name="vpn_service_revoked">сэрвіс VPN адкліканы</string>
+    <string name="debug_message">%s</string>
+    <string name="current_network_type">Бягучая сетка: %s</string>
+    <string name="connected_elapsed_time">Падлучана: %s</string>
+  <string name="disconnected">Адлучана</string>
+  <string name="label_sent">Адпраўлена</string>
+  <string name="label_received">Атрымана</string>
+    <string name="region_name_any">Лепшая прадукцыйнасць</string>
+  <string name="region_name_us">Злучаныя Штаты Амерыкі</string>
+  <string name="region_name_gb">Вялікабрытанія</string>
+  <string name="region_name_ca">Канада</string>
+  <string name="region_name_de">Германія</string>
+  <string name="region_name_jp">Японія</string>
+  <string name="region_name_hk">Ганконг</string>
+  <string name="region_name_sg">Сінгапур</string>
+  <string name="region_name_nl">Нідэрланды</string>
+  <string name="region_name_in">Індыя</string>
+  <string name="region_name_es">Іспанія</string>
+  <string name="region_name_at">Аўстрыя</string>
+  <string name="region_name_be">Бельгія</string>
+  <string name="region_name_bg">Балгарыя</string>
+  <string name="region_name_ch">Швейцарыя</string>
+  <string name="region_name_cz">Чэхія</string>
+  <string name="region_name_dk">Данія</string>
+  <string name="region_name_fr">Францыя</string>
+  <string name="region_name_hu">Венгрыя</string>
+  <string name="region_name_it">Італія</string>
+  <string name="region_name_no">Нарвегія</string>
+  <string name="region_name_ro">Румынія</string>
+  <string name="region_name_se">Швецыя</string>
+  <string name="region_name_pl">Польшчы</string>
+  <string name="region_name_sk">Славакія</string>
+    <string name="http_proxy_port_in_use">Запытаны лакальны  HTTP порт проксі-сервера %d  ужо ўжываецца іншай праграмай. Немагчыма працягваць.</string>
+  <!--When the split tunnel option is enabled, the current region is used to determine which requests should and shouldn't be tunneled. This log message tells the user which region (in '%s') is being used for this decision.-->
+  <string name="split_tunnel_region">Разбіць вобласць тунэлявання: %s</string>
+  <!--When the split tunnel option is enabled, this log message is shown when a domain is not tunneled (because it's detected as being in the same region as the user). The '%s' is the domain name.-->
+  <string name="untunneled_address">Непратунэляванае: %s</string>
+  <!--The log message is shown to the user if an upstream proxy error occurs. The '%s' is the detail of the error.-->
+  <string name="upstream_proxy_error">Памылка зыходнага проксі-сервера: %s</string>
+    <string name="start_tunnel_failed">Памылка запуску тунэлявання: %s</string>
+  <string name="tunnel_connecting">Ідзе злучэнне з тунэлем...</string>
+  <string name="tunnel_connected">Тунэль падлучаны</string>
+    <!--Empty string array to initialize things that will be programatically populated later-->
+</resources>

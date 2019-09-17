@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="socks_running">SOCKS läuft auf Port %d</string>
+    <string name="http_proxy_running">HTTP-Proxy läuft auf Port %d</string>
+    <string name="client_version">Client-Version %s</string>
+    <string name="starting_tunnel">Tunnel wird gestartet…</string>
+  <string name="stopping_tunnel">Tunnel wird beendet…</string>
+  <string name="stopped_tunnel">Tunnel angehalten</string>
+    <string name="psiphon_running_whole_device">Läuft im Gesamtgerätemodus</string>
+  <string name="psiphon_running_browser_only">Läuft im Nur-Browser-Modus</string>
+  <string name="waiting_for_network_connectivity">Warten auf die Netzwerkverbindung…</string>
+    <string name="psiphon_service_notification_message_connecting">Verbinde…</string>
+    <string name="vpn_service_running">VPN-Dienst läuft</string>
+    <string name="vpn_service_revoked">VPN-Dienst widerrufen</string>
+    <string name="debug_message">%s</string>
+    <string name="current_network_type">Aktuelles Netzwerk: %s</string>
+    <string name="connected_elapsed_time">Verbunden: %s</string>
+  <string name="disconnected">Getrennt</string>
+  <string name="label_sent">Gesendet</string>
+  <string name="label_received">Empfangen</string>
+    <string name="region_name_any">Beste Leistung</string>
+  <string name="region_name_us">Vereinigte Staaten</string>
+  <string name="region_name_gb">Vereinigtes Königreich</string>
+  <string name="region_name_ca">Kanada</string>
+  <string name="region_name_de">Deutschland</string>
+  <string name="region_name_jp">Japan</string>
+  <string name="region_name_hk">Hong Kong</string>
+  <string name="region_name_sg">Singapur</string>
+  <string name="region_name_nl">Niederlande</string>
+  <string name="region_name_in">Indien</string>
+  <string name="region_name_es">Spanien</string>
+  <string name="region_name_at">Österreich</string>
+  <string name="region_name_be">Belgien</string>
+  <string name="region_name_bg">Bulgarien</string>
+  <string name="region_name_ch">Schweiz</string>
+  <string name="region_name_cz">Tschechische Republik</string>
+  <string name="region_name_dk">Dänemark</string>
+  <string name="region_name_fr">Frankreich</string>
+  <string name="region_name_hu">Ungarn</string>
+  <string name="region_name_it">Italien</string>
+  <string name="region_name_no">Norwegen</string>
+  <string name="region_name_ro">Rumänien</string>
+  <string name="region_name_se">Schweden</string>
+  <string name="region_name_pl">Polen</string>
+  <string name="region_name_sk">Slowakei</string>
+    <string name="individual_app_excluded">App von Tunnel ausgeschlossen: %s</string>
+  <string name="no_apps_excluded">Keine Anwendungen werden vom Tunnel ausgeschlossen</string>
+    <!--When the split tunnel option is enabled, the current region is used to determine which requests should and shouldn't be tunneled. This log message tells the user which region (in '%s') is being used for this decision.-->
+  <string name="split_tunnel_region">Tunnelregion aufteilen : %s</string>
+  <!--When the split tunnel option is enabled, this log message is shown when a domain is not tunneled (because it's detected as being in the same region as the user). The '%s' is the domain name.-->
+  <string name="untunneled_address">Ungetunnelt: %s</string>
+  <!--The log message is shown to the user if an upstream proxy error occurs. The '%s' is the detail of the error.-->
+    <string name="start_tunnel_failed">Start des Tunnels fehlgeschlagen: %s</string>
+  <string name="tunnel_connecting">Tunnel wird verbunden…</string>
+  <string name="tunnel_connected">Tunnel verbunden</string>
+    <!--Empty string array to initialize things that will be programatically populated later-->
+</resources>

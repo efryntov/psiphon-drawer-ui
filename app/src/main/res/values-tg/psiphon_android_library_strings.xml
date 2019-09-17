@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="socks_running">SOCKS дар порти %d кор мекунад</string>
+    <string name="http_proxy_running">HTTP-прокси дар порти %d кор мекунад</string>
+    <string name="client_version">Версияи нармафзори муштарӣ %s</string>
+    <string name="starting_tunnel">Нақб ба кор дароварда мешавад...</string>
+  <string name="stopping_tunnel">Кори нақб қатъ карда мешавад...</string>
+  <string name="stopped_tunnel">Кори нақб қатъ карда шуд</string>
+    <string name="socks_port_in_use">Порти маҳаллии дархостшудаи SOCKS-прокси %d аллакай аз ҷониби барномаи дигаре истифода бурда мешавад.  Идома ғайриимкон аст.</string>
+    <string name="psiphon_running_whole_device">Дар реҷаи тамоми дастгоҳ кор мекунам</string>
+  <string name="psiphon_running_browser_only">Дар реҷаи танҳо браузер кор мекунам</string>
+  <string name="waiting_for_network_connectivity">Интизори пайвасти шабака...</string>
+    <string name="psiphon_service_notification_message_connecting">Пайваст мешавем...</string>
+    <string name="vpn_service_running">Хидмати VPN кор мекунад</string>
+    <string name="vpn_service_revoked">Хидмати VPN бозхонда шуд</string>
+    <string name="debug_message">%s</string>
+    <string name="current_network_type">Шабакаи ҷорӣ: %s</string>
+    <string name="connected_elapsed_time">Пайваст шудем: %s</string>
+  <string name="disconnected">Ҷудо шудем</string>
+  <string name="label_sent">Фиристодашуда</string>
+  <string name="label_received">Гирифташуда</string>
+    <string name="region_name_any">Самаранокии беҳтарин</string>
+  <string name="region_name_us">Иёлоти Муттаҳидаи Амрико</string>
+  <string name="region_name_gb">Шоҳигарии Муттаҳида</string>
+  <string name="region_name_ca">Канада</string>
+  <string name="region_name_de">Олмон</string>
+  <string name="region_name_jp">Ҷопон</string>
+  <string name="region_name_hk">Ҳонконг</string>
+  <string name="region_name_sg">Сингапур</string>
+  <string name="region_name_nl">Нидерланд</string>
+  <string name="region_name_in">Ҳиндустон</string>
+  <string name="region_name_es">Испания</string>
+  <string name="region_name_at">Австрия</string>
+  <string name="region_name_be">Белгия</string>
+  <string name="region_name_bg">Булғористон</string>
+  <string name="region_name_ch">Швейтсария</string>
+  <string name="region_name_cz">Ҷумҳурии Чех</string>
+  <string name="region_name_dk">Дания</string>
+  <string name="region_name_fr">Фаронса</string>
+  <string name="region_name_hu">Маҷористон</string>
+  <string name="region_name_it">Итолиё</string>
+  <string name="region_name_no">Норвегия</string>
+  <string name="region_name_ro">Руминия</string>
+  <string name="region_name_se">Шветсия</string>
+    <string name="http_proxy_port_in_use">Порти маҳаллии дархостшудаи HTTP-прокси %d аллакай аз ҷониби барномаи дигаре истифода бурда мешавад. Идома ғайриимкон аст.</string>
+  <!--When the split tunnel option is enabled, the current region is used to determine which requests should and shouldn't be tunneled. This log message tells the user which region (in '%s') is being used for this decision.-->
+  <string name="split_tunnel_region">Минтақаи тақсимшавии нақб: %s</string>
+  <!--When the split tunnel option is enabled, this log message is shown when a domain is not tunneled (because it's detected as being in the same region as the user). The '%s' is the domain name.-->
+  <string name="untunneled_address">Бе нақб: %s</string>
+  <!--The log message is shown to the user if an upstream proxy error occurs. The '%s' is the detail of the error.-->
+  <string name="upstream_proxy_error">Хатогии проксии баромад: %s</string>
+    <string name="start_tunnel_failed">Ба кор даровардани нақб барор наёфт: %s</string>
+  <string name="tunnel_connecting">Нақб пайваст карда мешавад...</string>
+  <string name="tunnel_connected">Нақб пайваст карда шуд</string>
+    <!--Empty string array to initialize things that will be programatically populated later-->
+</resources>

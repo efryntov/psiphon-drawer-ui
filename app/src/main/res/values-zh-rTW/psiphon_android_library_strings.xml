@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="socks_running">SOCKS代理運行於%d端口</string>
+    <string name="http_proxy_running">HTTP代理運行於%d端口</string>
+    <string name="client_version">客戶端版本 %s</string>
+    <string name="starting_tunnel">啟動通道...</string>
+  <string name="stopping_tunnel">停止通道...</string>
+  <string name="stopped_tunnel">通道已停止</string>
+    <string name="socks_port_in_use">所請求的本地 SOCKS 代理端口 %d 已被其他應用佔用。無法繼續。</string>
+    <string name="psiphon_running_whole_device">運行全局代理模式</string>
+  <string name="psiphon_running_browser_only">運行內鍵瀏覽器模式</string>
+  <string name="waiting_for_network_connectivity">等待網絡連接...</string>
+    <string name="psiphon_service_notification_message_connecting">連接中…</string>
+    <string name="vpn_service_running">VPN服務正在運行</string>
+    <string name="vpn_service_revoked">VPN服務失效</string>
+    <string name="debug_message">%s</string>
+    <string name="current_network_type">當前網路：%s</string>
+    <string name="connected_elapsed_time">連接：%s</string>
+  <string name="disconnected">斷開連接</string>
+  <string name="label_sent">已發送</string>
+  <string name="label_received">已接收</string>
+    <string name="region_name_any">最佳性能</string>
+  <string name="region_name_us">美國</string>
+  <string name="region_name_gb">英國</string>
+  <string name="region_name_ca">加拿大</string>
+  <string name="region_name_de">德國</string>
+  <string name="region_name_jp">日本</string>
+  <string name="region_name_hk">香港</string>
+  <string name="region_name_sg">新加坡</string>
+  <string name="region_name_nl">荷蘭</string>
+  <string name="region_name_in">印度</string>
+  <string name="region_name_es">西班牙</string>
+  <string name="region_name_at">澳洲</string>
+  <string name="region_name_be">比利時</string>
+  <string name="region_name_bg">保加利亞</string>
+  <string name="region_name_ch">瑞士</string>
+  <string name="region_name_cz">捷克共和國</string>
+  <string name="region_name_dk">丹麥</string>
+  <string name="region_name_fr">法國</string>
+  <string name="region_name_hu">匈牙利</string>
+  <string name="region_name_it">義大利</string>
+  <string name="region_name_no">挪威</string>
+  <string name="region_name_ro">羅馬尼亞</string>
+  <string name="region_name_se">瑞典</string>
+  <string name="region_name_pl">波蘭</string>
+  <string name="region_name_sk">斯洛伐克</string>
+    <string name="individual_app_excluded">應用程式被隧道排除: %s</string>
+  <string name="no_apps_excluded">這個隧道裏無應用程式被排除</string>
+    <string name="http_proxy_port_in_use">所請求的本地 HTTP 代理端口 %d 已被其他應用佔用。無法繼續。</string>
+  <!--When the split tunnel option is enabled, the current region is used to determine which requests should and shouldn't be tunneled. This log message tells the user which region (in '%s') is being used for this decision.-->
+  <string name="split_tunnel_region">拆分通道區域：%s</string>
+  <!--When the split tunnel option is enabled, this log message is shown when a domain is not tunneled (because it's detected as being in the same region as the user). The '%s' is the domain name.-->
+  <string name="untunneled_address">未代理：%s</string>
+  <!--The log message is shown to the user if an upstream proxy error occurs. The '%s' is the detail of the error.-->
+  <string name="upstream_proxy_error">上層代理錯誤：%s</string>
+    <string name="start_tunnel_failed">啟動通道失敗：%s</string>
+  <string name="tunnel_connecting">通道連接中…</string>
+  <string name="tunnel_connected">通道已連接</string>
+    <!--Empty string array to initialize things that will be programatically populated later-->
+</resources>

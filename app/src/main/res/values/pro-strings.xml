@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Descriptive text telling the user how they can use Psiphon Pro: either
+         by subscribing or by having ads in the app.
+         Insert one or more newline characters as needed to keep the lines approximately as short
+         as the English. -->
+
+    <!-- Prompt text telling the user that can continue to use Psiphon by watching
+         a video ad. (This is an alternative to subscribing.) -->
+
+    <!-- Text indicating to the user how much time they have left in their free trial. -->
+
+    <!-- Label for button that leads user to buy subscription or time pass to premium service.
+         When the user has a subscription or time pass, advertisements are removed from the app
+         ("ad-free"), additional features are enabled, and the app no longer periodically disconnects. -->
+
+    <!-- New option title in the 'More options' dialog. It appears in the Proxy Setting category.
+        When clicked a new screen opens where users can specify additional HTTP headers to be added to
+        to HTTP proxy requests. Users may specify up to 3 custom headers -->
+
+    <!--  Summary text for 'Custom HTTP header' option, appears underneath the option title -->
+
+    <!-- Checkbox that toggles adding custom headers feature-->
+
+    <!--  Summary text for 'Add custom HTTP headers' checkbox, appears underneath the checkbox title -->
+
+    <!-- Label for button that user will click in order to buy a subscription for Psiphon Pro.
+         The first formatted string is the price, and the second is what the price is per day.
+         Insert one or more newline characters as needed to keep the lines approximately as short
+         as the English. -->
+
+    <!-- Label for button that user will click in order to buy a rate-limited (cheaper) subscription for Psiphon Pro.
+         The first formatted string is the price, and the second is what the price is per day.
+         Insert one or more newline characters as needed to keep the lines approximately as short
+         as the English. -->
+
+    <!-- Label for button that user will click to buy a 7-day pass for Psiphon Pro.
+         The first formatted string is the price, and the second is what the price is per day. -->
+
+    <!-- Label for button that user will click to buy a 30-day pass for Psiphon Pro.
+         The first formatted string is the price, and the second is what the price is per day. -->
+
+    <!-- Label for button that user will click to buy a 90-day pass for Psiphon Pro.
+         The first formatted string is the price, and the second is what the price is per day. -->
+
+    <!-- Label for button that user will click to buy a 360-day pass for Psiphon Pro.
+         The first formatted string is the price, and the second is what the price is per day. -->
+
+    <!-- One of the features of paying for premium Psiphon Pro usage. Should be short and
+         exclamatory. Indicates that premium access results in all in-app advertisements being
+         removed. -->
+
+    <!-- One of the features of paying for premium Psiphon Pro usage. Should be short and
+         exclamatory. Indicates that premium access results in additional features being unlocked
+         (such as egress region selection). -->
+
+    <!-- One of the features of paying for premium Psiphon Pro usage. Should be short and
+         exclamatory. Indicates that premium access results in no interruptions due to free trial
+         time expiring (as happens with non-premium access). -->
+
+    <!-- Text in the screen where the user chooses to buy a subscription or a pass for a specific
+         amount of time. This string is a description specifically about buying a subscription.
+         The parenthetical remark about credit card requirements should be separated by a newline. -->
+
+    <!-- Text in the screen where the user chooses to buy a subscription or a pass for a specific
+         amount of time. This string announces that subscriptions include a free trial. -->
+
+    <!-- Text in the screen where the user chooses to buy a subscription or a pass for a specific
+         amount of time. This string is a description specifically about buying a time pass.
+         The parenthetical remark about credit card requirements should be separated by a newline. -->
+
+    <!-- Title for other text showing what the user's current speed limit is. Users have limited
+         speed if they have not paid for premium service. -->
+
+    <!-- Indicates the user's current speed limit. The placeholder will be a number like '1' or '2.5',
+         and is in megabits-per-second. Users have limited speed if they have not paid for premium
+         service. -->
+
+    <!-- Indicates that the user has no speed limit. They have paid for premium service and therefore
+         have access to a full-speed connection. Users have limited speed if they have not paid for
+         premium service. -->
+
+    <!-- Indicates that the user has an active speed boost.'Speed Boost' is a reward that can be purchased with PsiCash credit.
+    It provides unlimited network connection speed through Psiphon.
+    Other words that can be used to help with translation are: 'turbo' (like cars), 'accelerate', 'warp speed', 'blast off', or
+    anything that indicates a fast or unrestricted speed. -->
+
+    <!-- Text on button beside speed limit (if it's not unlimited). This button leads the user to
+         the workflow to subscribe for premium access. -->
+
+    <!-- Button title indicating to the user that they will earn PsiCash if they watch a video advertisement.
+    The word 'PsiCash' should not be translated or transliterated. Keep as short as possible.-->
+
+    <!-- Alert error message informing user that their Speed Boost purchase request failed because of
+    an unknown error. Note: 'PsiCash' should not be translated or transliterated. -->
+
+    <!-- Internal message not seen by the users, indicates successful Speed Boost purchase. -->
+
+    <!-- Alert error message informing user that their Speed Boost purchase request failed because they have an insufficient balance.
+    'Speed Boost' is a reward that can be purchased with PsiCash credit. It provides unlimited network connection speed through Psiphon.
+    Other words that can be used to help with translation are: 'turbo' (like cars), 'accelerate', 'warp speed', 'blast off', or
+    anything that indicates a fast or unrestricted speed. -->
+
+    <!-- Alert error message informing user that their Speed Boost purchase request failed because they tried to make the purchase with
+    an out of date product price. 'Speed Boost' is a reward that can be purchased with PsiCash credit. It provides unlimited network
+    connection speed through Psiphon. Other words that can be used to help with translation are: 'turbo' (like cars), 'accelerate',
+    'warp speed', 'blast off', or anything that indicates a fast or unrestricted speed. -->
+
+    <!-- Alert error message informing user that they have an active Speed Boost purchase.
+    'Speed Boost' is a reward that can be purchased with PsiCash credit. It provides unlimited network connection speed through Psiphon.
+    Other words that can be used to help with translation are: 'turbo' (like cars), 'accelerate', 'warp speed',
+    'blast off', or anything that indicates a fast or unrestricted speed. -->
+
+    <!-- Alert error message informing user that their Speed Boost purchase request failed because they attempted to buy a product that is no longer available
+    and that they should try updating or reinstalling the app. 'Speed Boost' is a reward that can be purchased with PsiCash credit. It provides unlimited network
+    connection speed through Psiphon. Other words that can be used to help with translation are: 'turbo' (like cars), 'accelerate', 'warp speed', 'blast off', or
+    anything that indicates a fast or unrestricted speed. -->
+
+    <!-- Alert error message informing user that their Speed Boost purchase request failed because their app has entered an invalid state and that they
+    should try updating or reinstalling the app. Note: 'PsiCash' should not be translated or transliterated. -->
+
+    <!-- Alert error message informing user that their Speed Boost purchase request failed due to a server error and that they should try again in a few minutes -->
+
+    <!-- Alert error message informing user that a critical PsiCash related error has occurred and encouraging users to send feedback diagnostics -->
+
+    <!-- Alert error message informing user that a recoverable PsiCash related error has occurred and last action will most likely succeed next time. -->
+
+    <!-- Alert message informing user that a PsiCash rewarded video is currently not available. -->
+
+    <!-- Text which appears in the Speed Boost meter when the user has earned enough PsiCash to buy 1 hour of Speed Boost.
+    Please keep this text concise as the width of the text box is restricted in size. 'Speed Boost' is a reward
+    that can be purchased with PsiCash credit. It provides unlimited network connection speed through Psiphon.
+    Other words that can be used to help with translation are: 'turbo' (like cars), 'accelerate', 'warp speed',
+    'blast off', or anything that indicates a fast or unrestricted speed. -->
+
+    <!-- Text which appears in the Speed Boost meter when the user has not yet earned enough PsiCash to
+    Speed Boost. This text will be accompanied with a percentage indicating to the user how close they are
+    to earning enough PsiCash to buy an hour of Speed Boost. Please keep this text concise as the width
+    of the text box is restricted in size. 'Speed Boost' is a reward that can be purchased with PsiCash credit.
+    It provides unlimited network connection speed through Psiphon. Other words that can be used to help with translation are:
+    'turbo' (like cars), 'accelerate', 'warp speed', 'blast off', or anything that indicates a fast or unrestricted speed. -->
+
+    <!-- Alert error message informing user that an unexpected error has occurred and encouraging the user to send feedback diagnostics. -->
+
+    <!-- Alert error message informing user that the Psiphon tunnel needs to be running in order to make a Speed Boost purchase.
+     'Speed Boost' is a reward that can be purchased with PsiCash credit.
+    It provides unlimited network connection speed through Psiphon. Other words that can be used to help with translation are:
+    'turbo' (like cars), 'accelerate', 'warp speed', 'blast off', or anything that indicates a fast or unrestricted speed. -->
+
+    <!-- Alert error message informing user that the Psiphon tunnel needs to complete its connection sequence in order to make a Speed Boost purchase.
+     'Speed Boost' is a reward that can be purchased with PsiCash credit.
+    It provides unlimited network connection speed through Psiphon. Other words that can be used to help with translation are:
+    'turbo' (like cars), 'accelerate', 'warp speed', 'blast off', or anything that indicates a fast or unrestricted speed.-->
+
+    <!-- Alert error message informing user that a critical error has occurred while trying to retrieve PsiCash balance and encouraging the user to
+    send feedback diagnostics.  Note: 'PsiCash' should not be translated or transliterated. -->
+
+    <!-- Alert error message informing user that a recoverable error has occurred while trying to retrieve PsiCash balance and last action will most
+    likely succeed next time.  Note: 'PsiCash' should not be translated or transliterated. -->
+
+    <!-- Text which appears in the Speed Boost meter when the user has activated Speed Boost accompanied with a countdown timer showing how much time
+    of the Speed Boost mode has left, like following 'Speed Boost Active - 16:49'. Please keep this text concise as the width of the text box
+    is restricted in size. 'Speed Boost' is a reward that can be purchased with PsiCash credit. It provides unlimited network connection speed through
+    Psiphon. Other words that can be used to help with translation are: 'turbo' (like cars), 'accelerate', 'warp speed', 'blast off', or anything that
+    indicates a fast or unrestricted speed. -->
+
+    <!-- Alert dialog action button caption. Clicking this button dismisses the alert dialog, keep concise -->
+
+    <!-- Auto dismissable alert message informing users that subscription options are not available at the moment -->
+
+    <!-- Speed Boost button that opens a dialog with various speed boost options available for purchase.
+    'Speed Boost' is a reward that can be purchased with PsiCash credit.
+    It provides unlimited network connection speed through Psiphon. Other words that can be used to help with translation are:
+    'turbo' (like cars), 'accelerate', 'warp speed', 'blast off', or anything that indicates a fast or unrestricted speed.-->
+</resources>

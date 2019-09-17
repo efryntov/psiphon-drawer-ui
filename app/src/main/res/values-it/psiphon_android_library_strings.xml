@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="socks_running">SOCKS in esecuzione sulla porta %d</string>
+    <string name="http_proxy_running">HTTP proxy in esecuzione sulla porta %d</string>
+    <string name="client_version">Versione Client %s</string>
+    <string name="starting_tunnel">Avvio Tunnel in corso...</string>
+  <string name="stopping_tunnel">Arresto Tunnel in corso...</string>
+  <string name="stopped_tunnel">Tunnel arrestato</string>
+    <string name="socks_port_in_use">La porta locale richiesta proxy SOCKS %d è già utilizzata da un\'altra app. Impossibile procedere.</string>
+    <string name="psiphon_running_whole_device">Esecuzione in modalità Intero Dispositivo</string>
+  <string name="psiphon_running_browser_only">Esecuzione in modalità Solo Browser</string>
+  <string name="waiting_for_network_connectivity">In attesa di connettività di rete...</string>
+    <string name="psiphon_service_notification_message_connecting">Connessione in corso...</string>
+    <string name="vpn_service_running">Servizio VPN in esecuzione</string>
+    <string name="vpn_service_revoked">Servizio VPN revocato</string>
+    <string name="debug_message">%s</string>
+    <string name="current_network_type">Rete attuale: %s</string>
+    <string name="connected_elapsed_time">Connesso: %s</string>
+  <string name="disconnected">Disconnesso</string>
+  <string name="label_sent">Inviati</string>
+  <string name="label_received">Ricevuti</string>
+    <string name="region_name_any">Migliori prestazioni</string>
+  <string name="region_name_us">Stati Uniti</string>
+  <string name="region_name_gb">Regno Unito</string>
+  <string name="region_name_ca">Canada</string>
+  <string name="region_name_de">Germania</string>
+  <string name="region_name_jp">Giappone</string>
+  <string name="region_name_hk">Hong Kong</string>
+  <string name="region_name_sg">Singapore</string>
+  <string name="region_name_nl">Olanda</string>
+  <string name="region_name_in">India</string>
+  <string name="region_name_es">Spagna</string>
+  <string name="region_name_at">Austria</string>
+  <string name="region_name_be">Belgio</string>
+  <string name="region_name_bg">Bulgaria</string>
+  <string name="region_name_ch">Svizzera</string>
+  <string name="region_name_cz">Repubblica Ceca</string>
+  <string name="region_name_dk">Danimarca</string>
+  <string name="region_name_fr">Francia</string>
+  <string name="region_name_hu">Ungheria</string>
+  <string name="region_name_it">Italia</string>
+  <string name="region_name_no">Norvegia</string>
+  <string name="region_name_ro">Romania</string>
+  <string name="region_name_se">Svezia</string>
+  <string name="region_name_pl">Polonia</string>
+  <string name="region_name_sk">Slovacchia</string>
+    <string name="individual_app_excluded">App escluse dal Tunnel: %s</string>
+  <string name="no_apps_excluded">Nessuna applicazione verrà esclusa dal tunnel</string>
+    <string name="http_proxy_port_in_use">La porta proxy HTTP locale %d è già in uso da un\'altra app. Non è possibile continuare.</string>
+  <!--When the split tunnel option is enabled, the current region is used to determine which requests should and shouldn't be tunneled. This log message tells the user which region (in '%s') is being used for this decision.-->
+  <string name="split_tunnel_region">Regione Tunnel separati: %s</string>
+  <!--When the split tunnel option is enabled, this log message is shown when a domain is not tunneled (because it's detected as being in the same region as the user). The '%s' is the domain name.-->
+  <string name="untunneled_address">Non tunnellizzato: %s</string>
+  <!--The log message is shown to the user if an upstream proxy error occurs. The '%s' is the detail of the error.-->
+  <string name="upstream_proxy_error">Errore proxy upstream: %s</string>
+    <string name="start_tunnel_failed">Avvio Tunnel fallito: %s</string>
+  <string name="tunnel_connecting">Connessione Tunnel in corso...</string>
+  <string name="tunnel_connected">Tunnel connesso</string>
+    <!--Empty string array to initialize things that will be programatically populated later-->
+</resources>

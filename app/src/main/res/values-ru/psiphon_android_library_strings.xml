@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="socks_running">SOCKS запущен %d</string>
+    <string name="http_proxy_running">HTTP прокси запущен %d</string>
+    <string name="client_version">Версия клиента %s</string>
+    <string name="starting_tunnel">Запуск туннеля...</string>
+  <string name="stopping_tunnel">Остановка туннеля...</string>
+  <string name="stopped_tunnel">Туннель остановлен</string>
+    <string name="socks_port_in_use">Запрошенный порт локального SOCKS прокси %d используется другим приложением. Продолжение невозможно.</string>
+    <string name="psiphon_running_whole_device">Приложение запущено в режиме туннелирования всех интернет-соединений</string>
+  <string name="psiphon_running_browser_only">Приложение запущено в режиме туннелирования браузера Psiphon </string>
+  <string name="waiting_for_network_connectivity">Ждём подключения к сети...</string>
+    <string name="psiphon_service_notification_message_connecting">Идет соединение...</string>
+    <string name="vpn_service_running">VPN сервис запущен</string>
+    <string name="vpn_service_revoked">VPN сервис удален</string>
+    <string name="debug_message">%s</string>
+    <string name="current_network_type">Текущая сеть: %s</string>
+    <string name="connected_elapsed_time">Соединение установлено: %s</string>
+  <string name="disconnected">Соединение разорвано</string>
+  <string name="label_sent">Отправлено</string>
+  <string name="label_received">Получено</string>
+    <string name="region_name_any">Лучшая производительность</string>
+  <string name="region_name_us">США</string>
+  <string name="region_name_gb">Великобритания</string>
+  <string name="region_name_ca">Канада</string>
+  <string name="region_name_de">Германия</string>
+  <string name="region_name_jp">Япония</string>
+  <string name="region_name_hk">Гонконг</string>
+  <string name="region_name_sg">Сингапур</string>
+  <string name="region_name_nl">Нидерланды</string>
+  <string name="region_name_in">Индия</string>
+  <string name="region_name_es">Испания</string>
+  <string name="region_name_at">Австрия</string>
+  <string name="region_name_be">Бельгия</string>
+  <string name="region_name_bg">Болгария</string>
+  <string name="region_name_ch">Швейцария</string>
+  <string name="region_name_cz">Чешская Республика</string>
+  <string name="region_name_dk">Дания</string>
+  <string name="region_name_fr">Франция</string>
+  <string name="region_name_hu">Венгрия</string>
+  <string name="region_name_it">Италия</string>
+  <string name="region_name_no">Норвегия</string>
+  <string name="region_name_ro">Румыния</string>
+  <string name="region_name_se">Швеция</string>
+  <string name="region_name_pl">Польша</string>
+  <string name="region_name_sk">Словакия</string>
+    <string name="http_proxy_port_in_use">Запрошенный локальный HTTP прокси порт %d уже используется другим приложением. Продолжение невозможно.</string>
+  <!--When the split tunnel option is enabled, the current region is used to determine which requests should and shouldn't be tunneled. This log message tells the user which region (in '%s') is being used for this decision.-->
+  <string name="split_tunnel_region">Регион раздельного туннелирования: %s</string>
+  <!--When the split tunnel option is enabled, this log message is shown when a domain is not tunneled (because it's detected as being in the same region as the user). The '%s' is the domain name.-->
+  <string name="untunneled_address">Нетуннелированное: %s</string>
+  <!--The log message is shown to the user if an upstream proxy error occurs. The '%s' is the detail of the error.-->
+  <string name="upstream_proxy_error">Ошибка внешнего прокси: %s</string>
+    <string name="start_tunnel_failed">Запуск туннеля не удался: %s</string>
+  <string name="tunnel_connecting">Идет соединение туннеля…</string>
+  <string name="tunnel_connected">Соединение туннеля установлено</string>
+    <!--Empty string array to initialize things that will be programatically populated later-->
+</resources>

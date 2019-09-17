@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="socks_running">SOCKS ኣብ %d ፖርት ይሰርሕ ኣሎ</string>
+    <string name="http_proxy_running">HTTP ተተካኢ ኣብ %d ፖርት ይሰርሕ ኣሎ</string>
+    <string name="client_version">ናይ ዓሚል ስሪት %s</string>
+    <string name="starting_tunnel">መተሓላለፊ ኣብ ምጅማር ኣሎ...</string>
+  <string name="stopping_tunnel">መተሓላለፊ ደው ኣብ ምባል...</string>
+  <string name="stopped_tunnel">መተሓላለፊ ደው ኢሉ</string>
+    <string name="socks_port_in_use">ዝተሓተተ ናይ ከባቢ SOCKS ተተካእI ፖርት %d ብኻልእ ኣፕ ተታሒዙ`ሎ። ምቕጻል ኣይክኣልን። </string>
+    <string name="psiphon_running_whole_device">ኣብ ምሉእ መሳርሒ ኩነት ይኸይድ ኣሎ</string>
+  <string name="psiphon_running_browser_only">ኣብ መድለዩ ኩነት ጥራሕ ይኸይድ ኣሎ</string>
+  <string name="waiting_for_network_connectivity">ነትዎርክ ኣብ ምርኻብ ኣሎ...</string>
+    <string name="psiphon_service_notification_message_connecting">የራኸብ ኣሎ...</string>
+    <string name="vpn_service_running">VPN ኣብ ምስራሕ ኣሎ</string>
+    <string name="vpn_service_revoked">ኣገልግሎት VPN ተመንዚዑ</string>
+    <string name="debug_message">%s</string>
+    <string name="current_network_type">ሕጂ ዘሎ ነትዎርክ: %s</string>
+    <string name="connected_elapsed_time">ተራኺቡ: %s</string>
+  <string name="disconnected">ኣይተራኸበን</string>
+  <string name="label_sent">ተላኢኹ</string>
+  <string name="label_received">በጺሑ</string>
+    <string name="region_name_any">ምሩጽ ኣፈጻጽማ</string>
+  <string name="region_name_us">ዩናይትድ ስቴትስ</string>
+  <string name="region_name_gb">ዓባይ ብሪጣንያ</string>
+  <string name="region_name_ca">ካናዳ</string>
+  <string name="region_name_de">ጀርማን</string>
+  <string name="region_name_jp">ጃፓን</string>
+  <string name="region_name_hk">ሆንግ ኮንግ</string>
+  <string name="region_name_sg">ሲንጋፖር</string>
+  <string name="region_name_nl">ነዘርላንድስ</string>
+  <string name="region_name_in">ህንዲ</string>
+  <string name="region_name_es">ስጳኛ</string>
+  <string name="region_name_at">ኣውስትራሊያ</string>
+  <string name="region_name_be">በልጁም</string>
+  <string name="region_name_bg">ቡልጋርያ</string>
+  <string name="region_name_ch">ስዊዘርላንድ</string>
+  <string name="region_name_cz">ቸክ ሪፓብሊክ</string>
+  <string name="region_name_dk">ደንማርክ</string>
+  <string name="region_name_fr">ፈረንሳይ</string>
+  <string name="region_name_hu">ሃንጋሪ</string>
+  <string name="region_name_it">ኢጣልያ</string>
+  <string name="region_name_no">ኖርወይ</string>
+  <string name="region_name_ro">ሮማንያ</string>
+  <string name="region_name_se">ሽወደን</string>
+  <string name="region_name_pl">ፖላንድ</string>
+  <string name="region_name_sk">ስሎቫክያ</string>
+    <string name="individual_app_excluded">ኣፕ ካብ መተሓላለፊ ተኣጊዱ`ሎ: %s</string>
+  <string name="no_apps_excluded">መተግበሪታት ካብ መተሓላለፊ ኣይተኣገዱን</string>
+    <string name="http_proxy_port_in_use">ዝተሓተተ ከባቢያዊ HTTP ተካኢ ፖርት %d ድሮ ብኻልእ ኣፕ ተታሒዙ`ሎ። ምቕጻል ኣይክኣልን።</string>
+  <!--When the split tunnel option is enabled, the current region is used to determine which requests should and shouldn't be tunneled. This log message tells the user which region (in '%s') is being used for this decision.-->
+  <string name="split_tunnel_region">መተሓላለፊ ዞባ ምቐል: %s</string>
+  <!--When the split tunnel option is enabled, this log message is shown when a domain is not tunneled (because it's detected as being in the same region as the user). The '%s' is the domain name.-->
+  <string name="untunneled_address">ዘይመሓላለፍ: %s</string>
+  <!--The log message is shown to the user if an upstream proxy error occurs. The '%s' is the detail of the error.-->
+  <string name="upstream_proxy_error">ተካኢ ዋሕዚ-ላዕሊ ጌጋ የርኢ: %s</string>
+    <string name="start_tunnel_failed">መተሓላለፊ ምጅማር ኣይተኻእለን: %s</string>
+  <string name="tunnel_connecting">መተሓላለፊ ኣብ ምርኻብ...</string>
+  <string name="tunnel_connected">መተሓላለፊ ተራኺቡ`ሎ</string>
+    <!--Empty string array to initialize things that will be programatically populated later-->
+</resources>

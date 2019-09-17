@@ -1,0 +1,12 @@
+<resources>
+    <string name="nav_header_title">Psiphon Pro</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_premium_options">Premium Options</string>
+    <string name="menu_statistics">Statistics</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+</resources>

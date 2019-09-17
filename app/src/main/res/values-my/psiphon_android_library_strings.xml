@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="socks_running">SOCKS သည် port %dတွင်လည်ပတ်နေပါသည်</string>
+    <string name="http_proxy_running">HTTP ကြားခံသည် port %dတွင်လည်ပတ်နေပါသည်။</string>
+    <string name="client_version">သုံးစွဲသူဗားရှင်း %s</string>
+    <string name="starting_tunnel">ချိတ်ဆက်မှုစတင်နေပါသည်...</string>
+  <string name="stopping_tunnel">ချိတ်ဆက်မှုရပ်တန့်နေပါသည်...</string>
+  <string name="stopped_tunnel">ချိတ်ဆက်မှုရပ်တန့်လိုက်ပါပြီ</string>
+    <string name="socks_port_in_use">တောင်းဆိုထားသည့် SOCKS ကြားခံ port %d ကိုအခြား app တစ်ခုကအသုံးပြုနေပါသည်။ ဆက်လက်မဆောင်ရွက်နိုင်ပါ။</string>
+    <string name="psiphon_running_whole_device">စက်တစ်ခုလုံးပုံစံတွင် လည်ပတ်နေပါသည်</string>
+  <string name="psiphon_running_browser_only">ဘရောက်ဇာတစ်ခုတည်းပုံစံတွင် လည်ပတ်နေပါသည်</string>
+  <string name="waiting_for_network_connectivity">ကွန်ယက်လိုင်းချိတ်နိုင်ရန်စောင့်နေပါသည်...</string>
+    <string name="psiphon_service_notification_message_connecting">ချိတ်ဆက်နေသည်...</string>
+    <string name="vpn_service_running">VPN ဝန်ဆောင်မှု လည်ပတ်နေပါသည်</string>
+    <string name="vpn_service_revoked">VPN ဝန်ဆောင်မှု ပယ်ချလိုက်ပါပြီ</string>
+    <string name="debug_message">%s</string>
+    <string name="current_network_type">လက်ရှိကွန်ယက် : %s</string>
+    <string name="connected_elapsed_time">ချိတ်ဆက်ပြီးပါပြီ: %s</string>
+  <string name="disconnected">ချိတ်ဆက်မှု ပြတ်တောက်သွားသည်</string>
+  <string name="label_sent">ပေးပို့ပြီးပါပြီ</string>
+  <string name="label_received">လက်ခံရရှိပါသည်</string>
+    <string name="region_name_any">အကောင်းဆုံးလုပ်ဆောင်မှု</string>
+  <string name="region_name_us">အမေရိကန်ပြည်ထောင်စု</string>
+  <string name="region_name_gb">ယူကေ</string>
+  <string name="region_name_ca">ကနေဒါ</string>
+  <string name="region_name_de">ဂျာမဏီ</string>
+  <string name="region_name_jp">ဂျပန်</string>
+  <string name="region_name_hk">ဟောင်ကောင်</string>
+  <string name="region_name_sg">စင်္ကာပူ</string>
+  <string name="region_name_nl">နယ်သာလန်</string>
+  <string name="region_name_in">အိန္ဒိယ</string>
+  <string name="region_name_es">စပိန်</string>
+  <string name="region_name_at">ဩစတီးရီးယား</string>
+  <string name="region_name_be">ဘယ်လ်ဂျီယံ</string>
+  <string name="region_name_bg">ဘူဂေးရီးယား</string>
+  <string name="region_name_ch">ဆွစ်ဇာလန်</string>
+  <string name="region_name_cz">ချက်ပြည်သူ့သမ္မတနိုင်ငံ</string>
+  <string name="region_name_dk">ဒိန်းမတ်</string>
+  <string name="region_name_fr">ပြင်သစ်</string>
+  <string name="region_name_hu">ဟန်ဂေရီ</string>
+  <string name="region_name_it">အီတလီ</string>
+  <string name="region_name_no">နော်ဝေ</string>
+  <string name="region_name_ro">ရိုမေးနီးယား</string>
+  <string name="region_name_se">ဆွီဒင်</string>
+  <string name="region_name_pl">ပိုလန်</string>
+  <string name="region_name_sk">ဆလိုဗာကီးယား</string>
+    <string name="individual_app_excluded">Tunnel မှ ချန်ထားသော အပ်ပလီကေးရှင်း %s</string>
+  <string name="no_apps_excluded">Tunnel သည် မည်သည့် အပ်ပလီကေးရှင်းကိုမှ မချန်ထားပါ။</string>
+    <string name="http_proxy_port_in_use">တောင်းဆိုထားသည့် HTTP ကြားခံ port %d ကိုအခြား app တစ်ခုကအသုံးပြုနေပါသည်။ ဆက်လက်မဆောင်ရွက်နိုင်ပါ။</string>
+  <!--When the split tunnel option is enabled, the current region is used to determine which requests should and shouldn't be tunneled. This log message tells the user which region (in '%s') is being used for this decision.-->
+  <string name="split_tunnel_region">ဒေသချိတ်ဆက်မှုကို ခွဲထုတ်ရန် : %s</string>
+  <!--When the split tunnel option is enabled, this log message is shown when a domain is not tunneled (because it's detected as being in the same region as the user). The '%s' is the domain name.-->
+  <string name="untunneled_address">ဝင်ရောက်ချိတ်ဆက်မှု ဖြတ်တောက်ပြီးပါပြီ :  %s</string>
+  <!--The log message is shown to the user if an upstream proxy error occurs. The '%s' is the detail of the error.-->
+  <string name="upstream_proxy_error">အင်တာနက်အား ချိတ်ဆက်သည့် ကြားခံ ပြဿနာ : %s</string>
+    <string name="start_tunnel_failed">ဝင်ရောက်ချိတ်ဆက်မှု မအောင်မြင်ပါ : %s</string>
+  <string name="tunnel_connecting">ဝင်ရောက်ချိတ်ဆက်နေပါသည်...</string>
+  <string name="tunnel_connected">ဝင်ရောက်ချိတ်ဆက်ပြီးပါပြီ</string>
+    <!--Empty string array to initialize things that will be programatically populated later-->
+</resources>

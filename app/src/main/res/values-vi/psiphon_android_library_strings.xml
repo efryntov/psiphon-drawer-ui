@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="socks_running">SOCKS đang chạy ở cổng %d</string>
+    <string name="http_proxy_running">Proxy HTTP đang chạy ở cổng %d</string>
+    <string name="client_version">Phiên Bản Trình %s</string>
+    <string name="starting_tunnel">Khởi động đường hầm...</string>
+  <string name="stopping_tunnel">Ngưng đường hầm...</string>
+  <string name="stopped_tunnel">Đã dừng đường hầm</string>
+    <string name="socks_port_in_use">Cổng proxy SOCKS địa phương %d yêu cầu đã được một ứng dụng khác dùng. Không thể tiếp tục.</string>
+    <string name="psiphon_running_whole_device">Đang chạy trên chế độ toàn thiết bị</string>
+  <string name="psiphon_running_browser_only">Đang chạy trên chế độ chỉ có trình duyệt</string>
+  <string name="waiting_for_network_connectivity">Đang chờ kết nối mạng...</string>
+    <string name="psiphon_service_notification_message_connecting">Đang kết nối...</string>
+    <string name="vpn_service_running">Dịch vụ VPN đang chạy</string>
+    <string name="vpn_service_revoked">Dịch vụ VPN bị thu hồi</string>
+    <string name="debug_message">%s</string>
+    <string name="current_network_type">Mạng hiện tại: %s</string>
+    <string name="connected_elapsed_time">Đã kết nối: %s</string>
+  <string name="disconnected">Đã dừng kết nối</string>
+  <string name="label_sent">Đã gửi</string>
+  <string name="label_received">Đã nhận</string>
+    <string name="region_name_any">Hiệu năng tốt nhất</string>
+  <string name="region_name_us">Hoa Kỳ</string>
+  <string name="region_name_gb">Anh Quốc</string>
+  <string name="region_name_ca">Canada</string>
+  <string name="region_name_de">Đức</string>
+  <string name="region_name_jp">Nhật Bản</string>
+  <string name="region_name_hk">Hong Kong</string>
+  <string name="region_name_sg">Singapore</string>
+  <string name="region_name_nl">Hà Lan</string>
+  <string name="region_name_in">Ấn Độ</string>
+  <string name="region_name_es">Tây Ban Nha</string>
+  <string name="region_name_at">Áo</string>
+  <string name="region_name_be">Bỉ</string>
+  <string name="region_name_bg">Bulgaria</string>
+  <string name="region_name_ch">Thụy Sĩ</string>
+  <string name="region_name_cz">Tiệp</string>
+  <string name="region_name_dk">Đan Mạch</string>
+  <string name="region_name_fr">Pháp</string>
+  <string name="region_name_hu">Hungary</string>
+  <string name="region_name_it">Ý</string>
+  <string name="region_name_no">Na Uy</string>
+  <string name="region_name_ro">Romania</string>
+  <string name="region_name_se">Thụy Điển</string>
+  <string name="region_name_pl">Ba Lan</string>
+  <string name="region_name_sk">Slovakia</string>
+    <string name="http_proxy_port_in_use">Cổng proxy HTTP địa phương %d yêu cầu đã được một ứng dụng khác dùng. Không thể tiếp tục.</string>
+  <!--When the split tunnel option is enabled, the current region is used to determine which requests should and shouldn't be tunneled. This log message tells the user which region (in '%s') is being used for this decision.-->
+  <string name="split_tunnel_region">Vùng đường hầm chẻ đôi: %s</string>
+  <!--When the split tunnel option is enabled, this log message is shown when a domain is not tunneled (because it's detected as being in the same region as the user). The '%s' is the domain name.-->
+  <string name="untunneled_address">Tháo gỡ đường hầm: %s</string>
+  <!--The log message is shown to the user if an upstream proxy error occurs. The '%s' is the detail of the error.-->
+  <string name="upstream_proxy_error">Có lỗi proxy ở luồng trên: %s</string>
+    <string name="start_tunnel_failed">Khởi động đường hầm thất bại: %s</string>
+  <string name="tunnel_connecting">Đang kết nối an toàn qua Psiphon...</string>
+  <string name="tunnel_connected">Đã kết nối an toàn qua Psiphon</string>
+    <!--Empty string array to initialize things that will be programatically populated later-->
+</resources>

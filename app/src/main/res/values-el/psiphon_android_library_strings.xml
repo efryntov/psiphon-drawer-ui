@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="psiphon_service_notification_message_connecting">Γίνεται σύνδεση...</string>
+    <string name="debug_message">%s</string>
+  <string name="current_network_type">Υπάρχον δίκτυο: %s</string>
+    <string name="connected_elapsed_time">Συνδεδεμένο: %s</string>
+  <string name="disconnected">Αποσυνδεδεμένο</string>
+  <string name="label_sent">Εστάλη</string>
+  <string name="label_received">Ελήφθη</string>
+    <string name="region_name_any">Μέγιστη απόδοση</string>
+  <string name="region_name_us">Ηνωμένες Πολιτείες</string>
+  <string name="region_name_gb">Ηνωμένο Βασίλειο</string>
+  <string name="region_name_ca">Καναδάς</string>
+  <string name="region_name_de">Γερμανία</string>
+  <string name="region_name_jp">Ιαπωνία</string>
+  <string name="region_name_hk">Χονγκ Κονγκ</string>
+  <string name="region_name_sg">Σιγκαπούρη</string>
+  <string name="region_name_nl">Ολλανδία</string>
+  <string name="region_name_in">Ινδία</string>
+  <string name="region_name_es">Ισπανία</string>
+  <string name="region_name_at">Αυστρία</string>
+  <string name="region_name_be">Βέλγιο</string>
+  <string name="region_name_bg">Βουλγαρία</string>
+  <string name="region_name_ch">Ελβετία</string>
+  <string name="region_name_cz">Δημοκρατία της Τσεχίας</string>
+  <string name="region_name_dk">Δανία</string>
+  <string name="region_name_fr">Γαλλία</string>
+  <string name="region_name_hu">Ουγγαρία</string>
+  <string name="region_name_it">Ιταλία</string>
+  <string name="region_name_no">Νορβηγία</string>
+  <string name="region_name_ro">Ρουμανία</string>
+  <string name="region_name_se">Σουηδία</string>
+    <!--When the split tunnel option is enabled, the current region is used to determine which requests should and shouldn't be tunneled. This log message tells the user which region (in '%s') is being used for this decision.-->
+  <!--When the split tunnel option is enabled, this log message is shown when a domain is not tunneled (because it's detected as being in the same region as the user). The '%s' is the domain name.-->
+  <!--The log message is shown to the user if an upstream proxy error occurs. The '%s' is the detail of the error.-->
+    <!--Empty string array to initialize things that will be programatically populated later-->
+</resources>

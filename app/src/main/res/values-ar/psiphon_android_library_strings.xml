@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="socks_running">بروتوكول SOCKS قيد التشغيل %d</string>
+    <string name="http_proxy_running">وكيل HTTP قيد التشغيل %d</string>
+    <string name="client_version">نسخة العميل %s</string>
+    <string name="starting_tunnel">جاري بدء تشغيل النفق ...</string>
+  <string name="stopping_tunnel">توقيف النفق عن العمل...</string>
+  <string name="stopped_tunnel">توقف النفق عن العمل</string>
+    <string name="socks_port_in_use">منفذ بروكسي SOCKS المحلي المطلوب %d يجري إستعماله من تطبيق آخر. لا يمكن الإستمرار بعملية التشغيل.</string>
+    <string name="psiphon_running_whole_device">يعمل بوضعية \"الجهاز بأكمله\"</string>
+  <string name="psiphon_running_browser_only">عملية التشغيل تجري بوضعية التصفح فقط</string>
+  <string name="waiting_for_network_connectivity">بانتظار عملية الاتصال بالشبكة المعلوماتية</string>
+    <string name="psiphon_service_notification_message_connecting">جاري الاتصال</string>
+    <string name="vpn_service_running">تشغيل خدمة الشبكة الافتراضية الخاصة</string>
+    <string name="vpn_service_revoked">إلغاء خدمة الشبكة الافتراضية الخاصة </string>
+    <string name="debug_message">نسبة %s</string>
+    <string name="current_network_type">الشبكة الحالية: %s</string>
+    <string name="connected_elapsed_time">موصول: %s</string>
+  <string name="disconnected">غير متصل</string>
+  <string name="label_sent">تمً الإرسال</string>
+  <string name="label_received">تمً الإستلام</string>
+    <string name="region_name_any">أفضل آداء</string>
+  <string name="region_name_us">الولايات المتحدة الأمريكية</string>
+  <string name="region_name_gb">المملكة المتحدة</string>
+  <string name="region_name_ca">كندا</string>
+  <string name="region_name_de">ألمانيا</string>
+  <string name="region_name_jp">اليابان</string>
+  <string name="region_name_hk">هونج كونج</string>
+  <string name="region_name_sg">سنغافورة</string>
+  <string name="region_name_nl">هولندا</string>
+  <string name="region_name_in">الهند</string>
+  <string name="region_name_es">إسبانيا</string>
+  <string name="region_name_at">النمسا</string>
+  <string name="region_name_be">بلجيكا</string>
+  <string name="region_name_bg">بلغاريا</string>
+  <string name="region_name_ch">سويسرا</string>
+  <string name="region_name_cz">جمهورية التشيك</string>
+  <string name="region_name_dk">الدنمارك</string>
+  <string name="region_name_fr">فرنسا</string>
+  <string name="region_name_hu">اليونان</string>
+  <string name="region_name_it">إيطاليا</string>
+  <string name="region_name_no">النرويج</string>
+  <string name="region_name_ro">رومانيا</string>
+  <string name="region_name_se">السويد</string>
+  <string name="region_name_pl">بولندا</string>
+  <string name="region_name_sk">سلوفاكيا</string>
+    <string name="individual_app_excluded">التطبيق المُستبعد من النفق: %s</string>
+  <string name="no_apps_excluded">لم يتم استبعاد أي تطبيق من النفق</string>
+    <string name="http_proxy_port_in_use">منفذ بروكسي HTTP المحلي المطلوب %d  يجري إستعماله من تطبيق آخر. لا يمكن الإستمرار بعملية التشغيل.</string>
+  <!--When the split tunnel option is enabled, the current region is used to determine which requests should and shouldn't be tunneled. This log message tells the user which region (in '%s') is being used for this decision.-->
+  <string name="split_tunnel_region">شق نفق المنطقة: %s</string>
+  <!--When the split tunnel option is enabled, this log message is shown when a domain is not tunneled (because it's detected as being in the same region as the user). The '%s' is the domain name.-->
+  <string name="untunneled_address">غير مار بالنفق : %s</string>
+  <!--The log message is shown to the user if an upstream proxy error occurs. The '%s' is the detail of the error.-->
+  <string name="upstream_proxy_error">خطأ في الأبستريم بروكسي: %s</string>
+    <string name="start_tunnel_failed">فشل في تشغيل النفق: %s</string>
+  <string name="tunnel_connecting">النفق يحاول الإتصال... </string>
+  <string name="tunnel_connected">النفق متصل </string>
+    <!--Empty string array to initialize things that will be programatically populated later-->
+</resources>
