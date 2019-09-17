@@ -1,6 +1,5 @@
 package com.psiphon3.subscription.ui.premium;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,18 +16,17 @@ import androidx.transition.TransitionManager;
 import com.android.billingclient.api.BillingClient;
 import com.android.billingclient.api.SkuDetails;
 import com.psiphon3.Utils;
+import com.psiphon3.Utils.MyLog;
 import com.psiphon3.billing.BillingRepository;
 import com.psiphon3.billing.PlayStoreBillingViewModel;
 import com.psiphon3.billing.SubscriptionState;
+import com.psiphon3.subscription.R;
+
+import org.json.JSONException;
 
 import java.text.NumberFormat;
 import java.util.Currency;
 import java.util.List;
-
-import com.psiphon3.subscription.R;
-import com.psiphon3.Utils.MyLog;
-
-import org.json.JSONException;
 
 import io.reactivex.Observable;
 import io.reactivex.disposables.CompositeDisposable;
@@ -38,48 +36,19 @@ public class PremiumOptionsFragment extends Fragment {
     private Scene sceneSubscriber;
     private Scene sceneNotSubscriber;
     private ViewGroup sceneRoot;
+    private View fragmentRoot;
     private CompositeDisposable compositeDisposable = new CompositeDisposable();
 
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         billingViewModel = ViewModelProviders.of(getActivity()).get(PlayStoreBillingViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_premium_options, container, false);
+        fragmentRoot = inflater.inflate(R.layout.fragment_premium_options, container, false);
 
-        sceneRoot = root.findViewById(R.id.scene_root);
+        sceneRoot = fragmentRoot.findViewById(R.id.scene_root);
         sceneSubscriber = Scene.getSceneForLayout(sceneRoot, R.layout.scene_premium_options_subscriber, getActivity());
         sceneNotSubscriber = Scene.getSceneForLayout(sceneRoot, R.layout.scene_premium_options_not_subscriber, getActivity());
-
-        billingViewModel.subscriptionStatusFlowable()
-                .distinctUntilChanged()
-                .doOnNext(subscriptionState -> {
-                    if(subscriptionState.hasValidPurchase()) {
-                        sceneSubscriber.setEnterAction(() -> renderSubscriberScreen(root, subscriptionState));
-                        TransitionManager.go(sceneSubscriber);
-                    } else {
-                        sceneNotSubscriber.setEnterAction(() ->
-                                compositeDisposable.add(
-                                        billingViewModel.allSkuDetailsSingle()
-                                                .toObservable()
-                                                .flatMap(Observable::fromIterable)
-                                                .filter(skuDetails -> {
-                                                    String sku = skuDetails.getSku();
-                                                    return BillingRepository.IAB_TIMEPASS_SKUS_TO_DAYS.containsKey(sku) ||
-                                                            sku.equals(BillingRepository.IAB_LIMITED_MONTHLY_SUBSCRIPTION_SKU) ||
-                                                            sku.equals(BillingRepository.IAB_UNLIMITED_MONTHLY_SUBSCRIPTION_SKU);
-                                                })
-                                                .map(SkuDetails::getOriginalJson)
-                                                .toList()
-                                                .doOnSuccess(skuDetails -> renderPurchasePremiumOptions(root, skuDetails))
-                                                .subscribe()
-                                ));
-                        TransitionManager.go(sceneNotSubscriber);
-                    }
-                })
-                .subscribe();
-
-
-        return root;
+        return fragmentRoot;
     }
 
     private void renderPurchasePremiumOptions(View root, List<String> jsonSkuDetailsList) {
@@ -172,6 +141,40 @@ public class PremiumOptionsFragment extends Fragment {
         super.onResume();
         billingViewModel.queryAllSkuDetails();
         billingViewModel.queryCurrentSubscriptionStatus();
+        compositeDisposable.add(
+                billingViewModel.subscriptionStatusFlowable()
+                        .distinctUntilChanged()
+                        .doOnNext(subscriptionState -> {
+                            if (subscriptionState.hasValidPurchase()) {
+                                sceneSubscriber.setEnterAction(() -> renderSubscriberScreen(fragmentRoot, subscriptionState));
+                                TransitionManager.go(sceneSubscriber);
+                            } else {
+                                sceneNotSubscriber.setEnterAction(() ->
+                                        compositeDisposable.add(
+                                                billingViewModel.allSkuDetailsSingle()
+                                                        .toObservable()
+                                                        .flatMap(Observable::fromIterable)
+                                                        .filter(skuDetails -> {
+                                                            String sku = skuDetails.getSku();
+                                                            return BillingRepository.IAB_TIMEPASS_SKUS_TO_DAYS.containsKey(sku) ||
+                                                                    sku.equals(BillingRepository.IAB_LIMITED_MONTHLY_SUBSCRIPTION_SKU) ||
+                                                                    sku.equals(BillingRepository.IAB_UNLIMITED_MONTHLY_SUBSCRIPTION_SKU);
+                                                        })
+                                                        .map(SkuDetails::getOriginalJson)
+                                                        .toList()
+                                                        .doOnSuccess(skuDetails -> renderPurchasePremiumOptions(fragmentRoot, skuDetails))
+                                                        .subscribe()
+                                        ));
+                                TransitionManager.go(sceneNotSubscriber);
+                            }
+                        })
+                        .subscribe());
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        compositeDisposable.clear();
     }
 
     @Override
