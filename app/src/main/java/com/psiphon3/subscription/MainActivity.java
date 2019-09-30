@@ -2,7 +2,12 @@ package com.psiphon3.subscription;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -13,14 +18,7 @@ import com.google.android.material.navigation.NavigationView;
 import com.psiphon3.EmbeddedValues;
 import com.psiphon3.TunnelManager;
 import com.psiphon3.billing.PlayStoreBillingViewModel;
-
-import androidx.drawerlayout.widget.DrawerLayout;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-
-import android.view.Menu;
-import android.widget.TextView;
+import com.psiphon3.subscription.ui.settings.SettingsFragment;
 
 import java.util.Locale;
 
@@ -44,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home, R.id.nav_premium, R.id.nav_statistics,
-                R.id.nav_tools, R.id.nav_share, R.id.nav_send)
+                R.id.nav_settings, R.id.nav_share, R.id.nav_send)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -72,23 +70,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
-        if (intent == null || intent.getAction() == null) {
-            return;
-        }
-
-        if (0 == intent.getAction().compareTo(TunnelManager.INTENT_ACTION_HANDSHAKE)) {
-            NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
-            Bundle data = intent.getExtras();
-            navController.navigate(R.id.nav_home, data);
-
-            // We only want to respond to the HANDSHAKE_SUCCESS action once,
-            // so we need to clear it (by setting it to a non-special intent).
-            setIntent(new Intent(
-                    "ACTION_VIEW",
-                    null,
-                    this,
-                    this.getClass()));
-        }
+        setIntent(intent);
     }
 
     @Override
@@ -96,5 +78,28 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
         billingViewModel.queryCurrentSubscriptionStatus();
         billingViewModel.queryAllSkuDetails();
+        handleCurrentIntent();
+    }
+
+    private void handleCurrentIntent() {
+        Intent intent = getIntent();
+        if (intent == null || intent.getAction() == null || intent.getAction() == "ACTION_VIEW") {
+            return;
+        }
+
+        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
+        Bundle data = intent.getExtras();
+        if (0 == intent.getAction().compareTo(TunnelManager.INTENT_ACTION_HANDSHAKE)) {
+            navController.navigate(R.id.nav_home, data);
+        } else if (0 == intent.getAction().compareTo(SettingsFragment.LANGUAGE_SETTINGS_RESET_ACTION)) {
+            navController.navigate(R.id.nav_settings, data);
+        }
+        // We only want to respond to the HANDSHAKE_SUCCESS action once,
+        // so we need to clear it (by setting it to a non-special intent).
+        setIntent(new Intent(
+                "ACTION_VIEW",
+                null,
+                this,
+                this.getClass()));
     }
 }

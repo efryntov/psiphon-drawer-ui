@@ -28,7 +28,6 @@ task clean(type: Delete) {
 
 // define all dependencies versions here
 ext {
-    androidSupportLibraryVersion = '28.0.0'
     rxjavaVersion = '2.2.5'
     rxandroidVersion = '2.1.0'
     rxrelayVersion = '2.1.0'
@@ -45,8 +44,8 @@ ext {
     junitVersion = '4.12'
     testRunnerVersion = '0.5'
     playStoreBillingClientVersion = '2.0.0'
-    flexboxVersion = '1.0.0'
     trayPreferences = '0.12.0'
+    preferenceVersion = '1.1.0'
 }
 
 subprojects {

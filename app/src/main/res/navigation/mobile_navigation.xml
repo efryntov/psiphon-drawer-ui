@@ -24,9 +24,9 @@
         tools:layout="@layout/fragment_statistics" />
 
     <fragment
-        android:id="@+id/nav_tools"
-        android:name="com.psiphon3.subscription.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
+        android:id="@+id/nav_settings"
+        android:name="com.psiphon3.subscription.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
         tools:layout="@layout/fragment_tools" />
 
     <fragment

@@ -56,7 +56,7 @@ def getBuildProperty(String propertyName) {
 dependencies {
     implementation files('libs/achartengine-1.0.0.jar')
 
-    implementation 'ca.psiphon:psiphontunnel:2.0.8'
+    implementation 'ca.psiphon:psiphontunnel:2.0.9'
 
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'com.google.android.material:material:1.0.0'
@@ -64,23 +64,25 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment:2.1.0'
     implementation 'androidx.navigation:navigation-ui:2.1.0'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
+    implementation "androidx.preference:preference:$preferenceVersion"
+
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 //    implementation 'com.google.android.gms:play-services-ads:18.2.0'
 
 
-    implementation "io.reactivex.rxjava2:rxandroid:$rootProject.ext.rxandroidVersion"
-    implementation "io.reactivex.rxjava2:rxjava:$rootProject.ext.rxjavaVersion"
-    implementation "com.jakewharton.rxrelay2:rxrelay:$rootProject.ext.rxrelayVersion"
-    implementation "com.jakewharton.rxbinding2:rxbinding-support-v4:$rootProject.ext.rxbindingSupportVersion"
-    implementation "com.squareup.okhttp3:okhttp:$rootProject.ext.okhttpVersion"
-    implementation "com.android.billingclient:billing:$rootProject.ext.playStoreBillingClientVersion"
-    implementation "androidx.multidex:multidex:$rootProject.ext.multidexVersion"
+    implementation "io.reactivex.rxjava2:rxandroid:$rxandroidVersion"
+    implementation "io.reactivex.rxjava2:rxjava:$rxjavaVersion"
+    implementation "com.jakewharton.rxrelay2:rxrelay:$rxrelayVersion"
+    implementation "com.jakewharton.rxbinding2:rxbinding-support-v4:$rxbindingSupportVersion"
+    implementation "com.squareup.okhttp3:okhttp:$okhttpVersion"
+    implementation "com.android.billingclient:billing:$playStoreBillingClientVersion"
+    implementation "androidx.multidex:multidex:$multidexVersion"
 
 
-    compileOnly "com.google.auto.value:auto-value:$rootProject.ext.autoValueVersion"
-    annotationProcessor "com.google.auto.value:auto-value:$rootProject.ext.autoValueVersion"
+    compileOnly "com.google.auto.value:auto-value:$autoValueVersion"
+    annotationProcessor "com.google.auto.value:auto-value:$autoValueVersion"
 
-    implementation "net.grandcentrix.tray:tray:$rootProject.ext.trayPreferences"
+    implementation "net.grandcentrix.tray:tray:$trayPreferences"
 }
