@@ -23,7 +23,7 @@
             android:id="@+id/toolbar_version_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="right"
+            android:layout_gravity="end"
             />
         </androidx.appcompat.widget.Toolbar>
 

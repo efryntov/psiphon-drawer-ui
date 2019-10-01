@@ -1,6 +1,9 @@
 package com.psiphon3.subscription;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.view.Menu;
 import android.widget.TextView;
@@ -16,11 +19,14 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.google.android.material.navigation.NavigationView;
 import com.psiphon3.EmbeddedValues;
+import com.psiphon3.LocaleManager;
 import com.psiphon3.TunnelManager;
 import com.psiphon3.billing.PlayStoreBillingViewModel;
 import com.psiphon3.subscription.ui.settings.SettingsFragment;
 
 import java.util.Locale;
+
+import static android.content.pm.PackageManager.GET_META_DATA;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Utils.resetActivityTitle(this);
+
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         TextView versionLabel = toolbar.findViewById(R.id.toolbar_version_label);
@@ -51,6 +59,12 @@ public class MainActivity extends AppCompatActivity {
 
         billingViewModel = ViewModelProviders.of(this).get(PlayStoreBillingViewModel.class);
         billingViewModel.startObservingIabUpdates();
+    }
+
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        LocaleManager localeManager = LocaleManager.getInstance(newBase);
+        super.attachBaseContext(localeManager.setLocale(newBase));
     }
 
     @Override
@@ -102,4 +116,18 @@ public class MainActivity extends AppCompatActivity {
                 this,
                 this.getClass()));
     }
+
+    private static class Utils {
+        static void resetActivityTitle(android.app.Activity activity) {
+            try {
+                ActivityInfo info = activity.getPackageManager().getActivityInfo(activity.getComponentName(), GET_META_DATA);
+                if (info.labelRes != 0) {
+                    activity.setTitle(info.labelRes);
+                }
+            } catch (PackageManager.NameNotFoundException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
 }
